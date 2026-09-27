@@ -1,33 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.4.2",
-  "tag": "v9.4.2",
+  "latest": "9.4.3",
+  "tag": "v9.4.3",
   "date": "2026-09-24",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.2/FactSpeed-Setup-9.4.2.exe",
-    "windows_taille": 136660966,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.3/FactSpeed-Setup-9.4.3.exe",
+    "windows_taille": 136661126,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "Ancienne infrastructure retirée : toutes les références à l'ancien",
-        "les mises à jour automatiques passent par le flux officiel du",
-        "le contrôle de version minimale est servi depuis le même dépôt",
-        "la vérification de licence côté serveur vise la même infrastructure",
-        "les listes blanches d'ouverture de liens et de paiement sont",
-        "Courriels de l'éditeur harmonisés (contact@ et support@ sur le"
+        "TLS strict explicite : tout certificat invalide (expiré, auto-signé,",
+        "Infrastructure de signature de code prête à l'emploi : deux voies",
+        "Garde-fou sécurité permanent : aucune URL non chiffrée dans le runtime,"
+      ]
+    },
+    {
+      "titre": "Documentation",
+      "items": [
+        "README : section « 🔒 SSL & signature de code » (modèle de sécurité,",
+        "Guide de déploiement serveur : SSL/TLS obligatoire (le logiciel refuse"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Zéro référence à un ancien projet dans tout le dépôt (vérifié)",
-        "TypeScript 0 erreur · 114 tests · 221 smoke"
+        "TypeScript 0 erreur · 118 tests · 221 smoke"
       ]
     }
   ]

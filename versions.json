@@ -1,36 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.4.3",
-  "tag": "v9.4.3",
+  "latest": "9.4.4",
+  "tag": "v9.4.4",
   "date": "2026-09-24",
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.3/FactSpeed-Setup-9.4.3.exe",
-    "windows_taille": 136661126,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.4/FactSpeed-Setup-9.4.4.exe",
+    "windows_taille": 136661502,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.4/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "TLS strict explicite : tout certificat invalide (expiré, auto-signé,",
-        "Infrastructure de signature de code prête à l'emploi : deux voies",
-        "Garde-fou sécurité permanent : aucune URL non chiffrée dans le runtime,"
-      ]
-    },
-    {
-      "titre": "Documentation",
-      "items": [
-        "README : section « 🔒 SSL & signature de code » (modèle de sécurité,",
-        "Guide de déploiement serveur : SSL/TLS obligatoire (le logiciel refuse"
+        "Métadonnées d'identité complétées : la marque déposée est",
+        "Plan « logiciel de confiance » complet : CONFIANCE-WINDOWS-MAC.md"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 118 tests · 221 smoke"
+        "TypeScript 0 erreur · 119 tests · 221 smoke"
       ]
     }
   ]

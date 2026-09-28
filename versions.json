@@ -1,22 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.4.4",
-  "tag": "v9.4.4",
+  "latest": "9.5.0",
+  "tag": "v9.5.0",
   "date": "2026-09-24",
+  "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.4/FactSpeed-Setup-9.4.4.exe",
-    "windows_taille": 136661502,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.0/FactSpeed-Setup-9.5.0.exe",
+    "windows_taille": 136662032,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.4.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Métadonnées d'identité complétées : la marque déposée est",
-        "Plan « logiciel de confiance » complet : CONFIANCE-WINDOWS-MAC.md"
+        "Canal de mise à jour : Paramètres → Système → « ⬇️ Mise à jour à",
+        "Déploiement progressif : le flux public `versions.json` peut limiter",
+        "Notes de version GitHub : le texte de la release GitHub est transmis",
+        "Le flux public `versions.json` publie désormais le pourcentage de"
       ]
     },
     {

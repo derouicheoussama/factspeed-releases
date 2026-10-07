@@ -1,31 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.5.0",
-  "tag": "v9.5.0",
+  "latest": "9.5.1",
+  "tag": "v9.5.1",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.0/FactSpeed-Setup-9.5.0.exe",
-    "windows_taille": 136662032,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.1/FactSpeed-Setup-9.5.1.exe",
+    "windows_taille": 136662673,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Canal de mise à jour : Paramètres → Système → « ⬇️ Mise à jour à",
-        "Déploiement progressif : le flux public `versions.json` peut limiter",
-        "Notes de version GitHub : le texte de la release GitHub est transmis",
-        "Le flux public `versions.json` publie désormais le pourcentage de"
+        "Échéance d'activation : les installations dont la période de",
+        "Écran d'activation : affiche désormais le motif précis"
+      ]
+    },
+    {
+      "titre": "Rappel du mécanisme de licence",
+      "items": [
+        "Clé Ed25519 liée au code machine (anti-copie), triple ancre",
+        "Le paiement débloque immédiatement : collez la clé reçue par"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 221 smoke"
+        "Garde-fous smoke de l'échéance (essai plafonné, jour limite,"
       ]
     }
   ]

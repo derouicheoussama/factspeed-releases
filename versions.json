@@ -1,36 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.5.1",
-  "tag": "v9.5.1",
+  "latest": "9.5.2",
+  "tag": "v9.5.2",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.1/FactSpeed-Setup-9.5.1.exe",
-    "windows_taille": 136662673,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.2/FactSpeed-Setup-9.5.2.exe",
+    "windows_taille": 136663175,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.2/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Échéance d'activation : les installations dont la période de",
-        "Écran d'activation : affiche désormais le motif précis"
-      ]
-    },
-    {
-      "titre": "Rappel du mécanisme de licence",
-      "items": [
-        "Clé Ed25519 liée au code machine (anti-copie), triple ancre",
-        "Le paiement débloque immédiatement : collez la clé reçue par"
+        "Duplication en 1 clic sur les clients, les produits/services et les",
+        "Export Excel du catalogue : produits et services exportés avec",
+        "Export Excel des fournisseurs : coordonnées complètes (contact,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Garde-fous smoke de l'échéance (essai plafonné, jour limite,"
+        "TypeScript 0 erreur · 119 tests · 225 smoke"
       ]
     }
   ]

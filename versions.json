@@ -1,28 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.6.1",
-  "tag": "v9.6.1",
+  "latest": "9.6.2",
+  "tag": "v9.6.2",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.6.1/FactSpeed-Setup-9.6.1.exe",
-    "windows_taille": 136910198,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.6.2/FactSpeed-Setup-9.6.2.exe",
+    "windows_taille": 136909911,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.6.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.6.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Documentation",
       "items": [
-        "Erreur critique « Cannot read properties of null (reading 'catch') »"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "TypeScript 0 erreur · 119 tests · 233 smoke"
+        "Guide d'achat et d'activation des certificats :",
+        "CI macOS : bloc de signature + notarisation prêt (5 secrets, décommenter)",
+        "Liens du guide ajoutés au README et au plan de confiance"
       ]
     }
   ]

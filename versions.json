@@ -1,23 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.7.4",
-  "tag": "v9.7.4",
+  "latest": "9.8.0",
+  "tag": "v9.8.0",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.4/FactSpeed-Setup-9.7.4.exe",
-    "windows_taille": 136912022,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.0/FactSpeed-Setup-9.8.0.exe",
+    "windows_taille": 136912875,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "Le menu Licence affiche maintenant le vrai délai de votre clé :",
-        "Panneau Licence : « Validité jusqu'au … (X jours restants) » utilise"
+        "Section « Passer à Pro / Business » connectée au site :",
+        "Page 🔑 Licence : bandeau d'upgrade avec liens packs et commande",
+        "État licence visible : la carte d'upgrade affiche une bannière"
       ]
     },
     {

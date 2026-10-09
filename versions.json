@@ -1,31 +1,39 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.5.4",
-  "tag": "v9.5.4",
+  "latest": "9.6.0",
+  "tag": "v9.6.0",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.4/FactSpeed-Setup-9.5.4.exe",
-    "windows_taille": 136907218,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.6.0/FactSpeed-Setup-9.6.0.exe",
+    "windows_taille": 136910504,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.6.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Suivi d'impression : chaque impression (unitaire ou en lot) est",
-        "Tri des colonnes : cliquez Client, Date ou Net à payer pour",
-        "Original + duplicata : option dans la barre de sélection —",
-        "✉️ Email du PDF au client : bouton par ligne et envoi en lot pour"
+        "Module d'authentification électronique (Paramètres → 🔐) : chaque",
+        "QR de vérification imprimable : pointe vers la page publique de",
+        "Base de données centralisée (registre public) : dépôt GitHub",
+        "Détection de falsification : « vérifier l'intégrité » recalcule",
+        "Mode hors ligne : l'enregistrement naît localement (statut « local »)",
+        "Base centralisée : le registre public + le serveur de licences SQLite"
+      ]
+    },
+    {
+      "titre": "Documentation",
+      "items": [
+        "`docs/AUTH-ARCHITECTURE.md` : les 4 niveaux de vérification distincts"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 225 smoke · 10 vérifications"
+        "8 nouveaux garde-fous smoke (identifiant, empreinte, signature,"
       ]
     }
   ]

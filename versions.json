@@ -1,33 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.5.3",
-  "tag": "v9.5.3",
+  "latest": "9.5.4",
+  "tag": "v9.5.4",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.3/FactSpeed-Setup-9.5.3.exe",
-    "windows_taille": 136905805,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.4/FactSpeed-Setup-9.5.4.exe",
+    "windows_taille": 136907218,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.5.4/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Charte logo officielle déployée sur toute l'application :",
-        "icône app (tuile blanche arrondie + document-F) sur Windows, macOS,",
-        "icône circulaire bleue sur l'écran de connexion ",
-        "lockup horizontal officiel (document-F + FactSpeed + baseline)",
-        "Charte complète archivée dans `brand/charte/` (12 fichiers : icônes,",
-        "Écran de connexion et barre latérale rafraîchis avec les nouvelles"
+        "Suivi d'impression : chaque impression (unitaire ou en lot) est",
+        "Tri des colonnes : cliquez Client, Date ou Net à payer pour",
+        "Original + duplicata : option dans la barre de sélection —",
+        "✉️ Email du PDF au client : bouton par ligne et envoi en lot pour"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 225 smoke · art installateur"
+        "TypeScript 0 erreur · 119 tests · 225 smoke · 10 vérifications"
       ]
     }
   ]

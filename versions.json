@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.7.1",
-  "tag": "v9.7.1",
+  "latest": "9.7.2",
+  "tag": "v9.7.2",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.1/FactSpeed-Setup-9.7.1.exe",
-    "windows_taille": 136911602,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.2/FactSpeed-Setup-9.7.2.exe",
+    "windows_taille": 136911563,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Corrigé",
       "items": [
-        "Limite d'activations (`activation_limit`) : message actionnable —",
-        "Tous les refus serveur affichent désormais leur raison d'origine en"
+        "Licences en ligne (FS-…) : le panneau Licence n'affiche plus la",
+        "L'avertissement « générez une nouvelle clé dans votre Studio » ne"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "244 vérifications smoke · TypeScript 0 erreur · 119 tests"
+        "TypeScript 0 erreur · 119 tests · 243 smoke"
       ]
     }
   ]

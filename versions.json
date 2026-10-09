@@ -1,30 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.7.3",
-  "tag": "v9.7.3",
+  "latest": "9.7.4",
+  "tag": "v9.7.4",
   "date": "2026-09-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.3/FactSpeed-Setup-9.7.3.exe",
-    "windows_taille": 136911949,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.4/FactSpeed-Setup-9.7.4.exe",
+    "windows_taille": 136912022,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.7.4/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Corrigé",
       "items": [
-        "Section 🔑 Licence autonome dans le menu latéral, juste sous",
-        "Page Licence dédiée : statut complet, activation (FS- en ligne,",
-        "Le badge se rafraîchit à chaque navigation ; un clic sur l'entrée"
+        "Le menu Licence affiche maintenant le vrai délai de votre clé :",
+        "Panneau Licence : « Validité jusqu'au … (X jours restants) » utilise"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 243 smoke · vérifié Playwright"
+        "TypeScript 0 erreur · 119 tests · 243 smoke"
       ]
     }
   ]

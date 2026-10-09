@@ -1,28 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.4",
-  "tag": "v9.8.4",
+  "latest": "9.8.5",
+  "tag": "v9.8.5",
   "date": "2026-10-09",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.4/FactSpeed-Setup-9.8.4.exe",
-    "windows_taille": 136944385,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.4/FactSpeed-9.8.4-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.4/FactSpeed-9.8.4-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.5/FactSpeed-Setup-9.8.5.exe",
+    "windows_taille": 136944330,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.5/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Design",
+      "titre": "Nouveau",
       "items": [
-        "Bouton principal du menu épuré : fond blanc plein, texte marine,"
+        "La formule achetée s'affiche partout : la bannière « ✅ Licence en ligne",
+        "Ligne « Formule » dans le panneau 🔑 Licence (statut détaillé)",
+        "Badge de licence et page À propos alignés sur le même libellé"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Fini les replis inventés : sans plan côté serveur, l'application n'affiche"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 243 smoke · garde UI 9/9 + capture"
+        "TypeScript 0 erreur · 119 tests · 245 smoke (+2 gardes mapping plan) ·"
       ]
     }
   ]

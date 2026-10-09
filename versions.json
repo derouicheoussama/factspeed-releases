@@ -1,36 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.3",
-  "tag": "v9.8.3",
+  "latest": "9.8.4",
+  "tag": "v9.8.4",
   "date": "2026-10-09",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.3/FactSpeed-Setup-9.8.3.exe",
-    "windows_taille": 136944467,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.3/FactSpeed-9.8.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.3/FactSpeed-9.8.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.4/FactSpeed-Setup-9.8.4.exe",
+    "windows_taille": 136944385,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.4/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Design",
       "items": [
-        "La page 🔑 Licence du menu devient le point unique : activation et statut,",
-        "Onglet Paramètres → Système allégé : les cartes Licence et Mise à jour",
-        "Badge du menu plus précis : ♾ au-delà d'un an ou en perpétuel avec la"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Fusion des deux définitions internes de la page Licence (un doublon de code"
+        "Bouton principal du menu épuré : fond blanc plein, texte marine,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 243 smoke · traductions AR complétées"
+        "TypeScript 0 erreur · 119 tests · 243 smoke · garde UI 9/9 + capture"
       ]
     }
   ]

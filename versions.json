@@ -1,34 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.2",
-  "tag": "v9.8.2",
-  "date": "2026-09-24",
+  "latest": "9.8.3",
+  "tag": "v9.8.3",
+  "date": "2026-10-09",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.2/FactSpeed-Setup-9.8.2.exe",
-    "windows_taille": 136944362,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.3/FactSpeed-Setup-9.8.3.exe",
+    "windows_taille": 136944467,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "Nouveau motif serveur géré : `machine_not_activated` (clé valide,"
+        "La page 🔑 Licence du menu devient le point unique : activation et statut,",
+        "Onglet Paramètres → Système allégé : les cartes Licence et Mise à jour",
+        "Badge du menu plus précis : ♾ au-delà d'un an ou en perpétuel avec la"
       ]
     },
     {
-      "titre": "Documentation",
+      "titre": "Corrigé",
       "items": [
-        "`docs/LOVABLE-API.md` : contrat complet de l'API factspeed.com"
+        "Fusion des deux définitions internes de la page Licence (un doublon de code"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 243 smoke"
+        "TypeScript 0 erreur · 119 tests · 243 smoke · traductions AR complétées"
       ]
     }
   ]

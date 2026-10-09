@@ -1,36 +1,38 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.5",
-  "tag": "v9.8.5",
+  "latest": "9.8.6",
+  "tag": "v9.8.6",
   "date": "2026-10-09",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.5/FactSpeed-Setup-9.8.5.exe",
-    "windows_taille": 136944330,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.5/FactSpeed-9.8.5-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.5/FactSpeed-9.8.5-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.6/FactSpeed-Setup-9.8.6.exe",
+    "windows_taille": 136937836,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.5/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.6/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "La formule achetée s'affiche partout : la bannière « ✅ Licence en ligne",
-        "Ligne « Formule » dans le panneau 🔑 Licence (statut détaillé)",
-        "Badge de licence et page À propos alignés sur le même libellé"
+        "Installation par-machine dans `C:\\Program Files\\FactSpeed` : l'installateur",
+        "Dossier d'installation verrouillé : la page « Dossier » est retirée de",
+        "Page d'accueil de l'installateur : annonce le dossier protégé et",
+        "Les données client (base, licence, sauvegardes) restent dans"
       ]
     },
     {
-      "titre": "Corrigé",
+      "titre": "Notes",
       "items": [
-        "Fini les replis inventés : sans plan côté serveur, l'application n'affiche"
+        "Mise à jour automatique : l'installation de chaque mise à jour demande",
+        "Anciennes installations (dans le profil utilisateur) : désinstallez-les"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests · 245 smoke (+2 gardes mapping plan) ·"
+        "TypeScript 0 erreur · 119 tests (garde permanent perMachine) · 245 smoke"
       ]
     }
   ]

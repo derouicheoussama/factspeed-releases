@@ -1,40 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.9.1",
-  "tag": "v9.9.1",
+  "latest": "9.9.2",
+  "tag": "v9.9.2",
   "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.1/FactSpeed-Setup-9.9.1.exe",
-    "windows_taille": 136947603,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.1/FactSpeed-9.9.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.1/FactSpeed-9.9.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.2/FactSpeed-Setup-9.9.2.exe",
+    "windows_taille": 136949079,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.2/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Corrigé",
-      "items": [
-        "👤 Mon compte enregistre vraiment tout : le bug qui faisait disparaître"
-      ]
-    },
     {
       "titre": "Nouveau",
       "items": [
-        "🔄 Changer d'offre remplace la fenêtre technique « ⚙ Offres & moyens de"
+        "Barèmes DZ complets :",
+        "💵 Paie : indicateurs du mois — bulletins émis, masse salariale brute,",
+        "💰 Attestation de salaire (nouveau document) : fonction + salaire de",
+        "🌴 Congés : repères légaux algériens affichés (30 j/an, maladie = dossier"
       ]
     },
     {
-      "titre": "Design",
+      "titre": "Technique",
       "items": [
-        "Bouton « ➕ Nouvelle facture » raffiné : plus haut (46 px), coins plus"
+        "Le bulletin signale l'exonération ; l'abattement ne s'applique qu'au-delà"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 260 smoke · garde visuel (profil"
+        "TypeScript 0 erreur · 120 tests · 262 smoke · garde visuel RH 9/9"
       ]
     }
   ]

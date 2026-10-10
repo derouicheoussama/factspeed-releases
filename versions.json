@@ -7,8 +7,8 @@
   "telecharger": {
     "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/FactSpeed-Setup-9.9.4.exe",
     "windows_taille": 137325752,
-    "mac_arm64": null,
-    "mac_intel": null,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/FactSpeed-9.9.4-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/FactSpeed-9.9.4-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
   "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/SHA256SUMS.txt",

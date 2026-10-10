@@ -1,40 +1,34 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.9.4",
-  "tag": "v9.9.4",
-  "date": "2026-10-10",
+  "latest": "9.9.5",
+  "tag": "v9.9.5",
+  "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/FactSpeed-Setup-9.9.4.exe",
-    "windows_taille": 137325752,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/FactSpeed-9.9.4-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/FactSpeed-9.9.4-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.5/FactSpeed-Setup-9.9.5.exe",
+    "windows_taille": 137325576,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.5/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Nouveau",
-      "items": [
-        "Écran de chargement au logo officiel : au lancement, une fenêtre de"
-      ]
-    },
     {
       "titre": "Design",
       "items": [
-        "Menu latéral au rendu plus net : police Cairo explicite avec"
+        "Le « + » du bouton principal est désormais une icône vectorielle (SVG) :"
       ]
     },
     {
-      "titre": "Corrigé",
+      "titre": "Technique",
       "items": [
-        "Garde du menu accordéon modernisé : profil de test frais + parcours"
+        "Outil d'aperçu design pour l'éditeur : l'interface de l'application peut"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · gardes UI : Licence ✅,"
+        "TypeScript 0 erreur · 120 tests · 262 smoke"
       ]
     }
   ]

@@ -1,29 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.9",
-  "tag": "v9.8.9",
+  "latest": "9.8.10",
+  "tag": "v9.8.10",
   "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.9/FactSpeed-Setup-9.8.9.exe",
-    "windows_taille": 136939906,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.9/FactSpeed-9.8.9-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.9/FactSpeed-9.8.9-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.10/FactSpeed-Setup-9.8.10.exe",
+    "windows_taille": 136940067,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.9/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.10/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Corrigé",
       "items": [
-        "Déverrouillage 100 % dans le logiciel : en cas de mot de passe oublié,",
-        "L'écran « Compte bloqué » propose deux voies côte à côte :"
-      ]
-    },
-    {
-      "titre": "Sécurité",
-      "items": [
-        "La clé de licence est liée à l'ordinateur : une clé d'un autre poste est"
+        "« Mot de passe oublié ? » devient intelligent : l'écran de connexion",
+        "Fini l'erreur bloquante « Aucun code de récupération n'a été généré » :",
+        "Lien « Pas de code ? Déverrouillez avec votre clé de licence → » ajouté"
       ]
     },
     {

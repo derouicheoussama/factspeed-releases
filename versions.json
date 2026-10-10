@@ -1,30 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.7",
-  "tag": "v9.8.7",
+  "latest": "9.8.8",
+  "tag": "v9.8.8",
   "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.7/FactSpeed-Setup-9.8.7.exe",
-    "windows_taille": 136938014,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.7/FactSpeed-9.8.7-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.7/FactSpeed-9.8.7-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.8/FactSpeed-Setup-9.8.8.exe",
+    "windows_taille": 136939431,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.7/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.8/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "« Quoi de neuf » uniformisé : les entrées du journal ne mentionnent plus",
-        "Documentation développeur renommée `docs/API-SERVEUR-LICENCES.md` et",
-        "Garde permanent : les tests échouent si une mention d'outil tiers"
+        "Réinitialisation du mot de passe renforcée : en plus du code de",
+        "Licence associée au compte : le compte qui active la licence est"
+      ]
+    },
+    {
+      "titre": "Sécurité",
+      "items": [
+        "Clé de déverrouillage signée Ed25519 (même chaîne de confiance que les",
+        "Le code de demande ne révèle rien (renvoyé pour n'importe quel nom) et"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests (+1 garde masquage) · 245 smoke"
+        "TypeScript 0 erreur · 120 tests · 252 smoke (+7 gardes déverrouillage) ·"
       ]
     }
   ]

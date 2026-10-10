@@ -1,35 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.11",
-  "tag": "v9.8.11",
+  "latest": "9.8.12",
+  "tag": "v9.8.12",
   "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.11/FactSpeed-Setup-9.8.11.exe",
-    "windows_taille": 136940153,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.11/FactSpeed-9.8.11-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.11/FactSpeed-9.8.11-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.12/FactSpeed-Setup-9.8.12.exe",
+    "windows_taille": 136940543,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.11/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.12/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "Plus de « TypeError: fetch failed » : quand le serveur de licences est",
-        "2 tentatives automatiques (1,5 s d'écart) avant d'afficher l'échec :"
+        "Le déverrouillage par licence ne s'applique qu'au compte autorisé :",
+        "Deux sources d'association, la plus forte gagne :",
+        "Le panneau 🔑 Licence affiche le compte autorisé (« Associée au compte »)"
       ]
     },
     {
-      "titre": "Note éditeur",
+      "titre": "Éditeur",
       "items": [
-        "Pendant toute indisponibilité du domaine factspeed.com, les activations"
+        "Dashboard : ajouter un champ « Compte » par licence et renvoyer"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 252 smoke"
+        "TypeScript 0 erreur · 120 tests · 253 smoke (+1 garde champ account)"
       ]
     }
   ]

@@ -1,31 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.9.2",
-  "tag": "v9.9.2",
+  "latest": "9.9.3",
+  "tag": "v9.9.3",
   "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.2/FactSpeed-Setup-9.9.2.exe",
-    "windows_taille": 136949079,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.2/FactSpeed-9.9.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.2/FactSpeed-9.9.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.3/FactSpeed-Setup-9.9.3.exe",
+    "windows_taille": 136949219,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.9.3/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Barèmes DZ complets :",
-        "💵 Paie : indicateurs du mois — bulletins émis, masse salariale brute,",
-        "💰 Attestation de salaire (nouveau document) : fonction + salaire de",
-        "🌴 Congés : repères légaux algériens affichés (30 j/an, maladie = dossier"
+        "« Ressources humaines » devient une section dédiée du menu (entre",
+        "Documents RH : aperçu OU impression directe — chaque document"
       ]
     },
     {
-      "titre": "Technique",
+      "titre": "Design",
       "items": [
-        "Le bulletin signale l'exonération ; l'abattement ne s'applique qu'au-delà"
+        "Attestations redessinées : identité complète en tableau (CIN, CNAS,"
       ]
     },
     {

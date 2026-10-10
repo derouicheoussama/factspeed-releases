@@ -1,38 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.6",
-  "tag": "v9.8.6",
-  "date": "2026-10-09",
+  "latest": "9.8.7",
+  "tag": "v9.8.7",
+  "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.6/FactSpeed-Setup-9.8.6.exe",
-    "windows_taille": 136937836,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.6/FactSpeed-9.8.6-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.6/FactSpeed-9.8.6-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.7/FactSpeed-Setup-9.8.7.exe",
+    "windows_taille": 136938014,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.6/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.7/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Corrigé",
       "items": [
-        "Installation par-machine dans `C:\\Program Files\\FactSpeed` : l'installateur",
-        "Dossier d'installation verrouillé : la page « Dossier » est retirée de",
-        "Page d'accueil de l'installateur : annonce le dossier protégé et",
-        "Les données client (base, licence, sauvegardes) restent dans"
-      ]
-    },
-    {
-      "titre": "Notes",
-      "items": [
-        "Mise à jour automatique : l'installation de chaque mise à jour demande",
-        "Anciennes installations (dans le profil utilisateur) : désinstallez-les"
+        "« Quoi de neuf » uniformisé : les entrées du journal ne mentionnent plus",
+        "Documentation développeur renommée `docs/API-SERVEUR-LICENCES.md` et",
+        "Garde permanent : les tests échouent si une mention d'outil tiers"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 119 tests (garde permanent perMachine) · 245 smoke"
+        "TypeScript 0 erreur · 120 tests (+1 garde masquage) · 245 smoke"
       ]
     }
   ]

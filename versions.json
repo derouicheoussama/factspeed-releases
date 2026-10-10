@@ -1,36 +1,35 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.8.8",
-  "tag": "v9.8.8",
+  "latest": "9.8.9",
+  "tag": "v9.8.9",
   "date": "2026-10-10",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.8/FactSpeed-Setup-9.8.8.exe",
-    "windows_taille": 136939431,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.8/FactSpeed-9.8.8-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.8/FactSpeed-9.8.8-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.9/FactSpeed-Setup-9.8.9.exe",
+    "windows_taille": 136939906,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.8/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.8.9/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Réinitialisation du mot de passe renforcée : en plus du code de",
-        "Licence associée au compte : le compte qui active la licence est"
+        "Déverrouillage 100 % dans le logiciel : en cas de mot de passe oublié,",
+        "L'écran « Compte bloqué » propose deux voies côte à côte :"
       ]
     },
     {
       "titre": "Sécurité",
       "items": [
-        "Clé de déverrouillage signée Ed25519 (même chaîne de confiance que les",
-        "Le code de demande ne révèle rien (renvoyé pour n'importe quel nom) et"
+        "La clé de licence est liée à l'ordinateur : une clé d'un autre poste est"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 252 smoke (+7 gardes déverrouillage) ·"
+        "TypeScript 0 erreur · 120 tests · 252 smoke"
       ]
     }
   ]

@@ -1,26 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.10.3",
-  "tag": "v9.10.3",
+  "latest": "9.11.0",
+  "tag": "v9.11.0",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.3/FactSpeed-Setup-9.10.3.exe",
-    "windows_taille": 137326928,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.3/FactSpeed-9.10.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.3/FactSpeed-9.10.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.0/FactSpeed-Setup-9.11.0.exe",
+    "windows_taille": 137328048,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Pleine largeur : la page Gestion RH utilise tout l'espace disponible —",
-        "Congés en 2 colonnes : demandes à gauche, soldes avec barres de",
-        "Filtres par statut en un clic : Tous / ⏳ En attente / ✅ Approuvés /",
-        "📊 Export Excel des congés : employé, type, période, jours, statut, motif",
-        "🖨 Impression de la demande de congé : formulaire officiel à signer"
+        "4ᵉ onglet « 👔 Employés » dans la Gestion RH : répertoire complet du",
+        "Centre de documents restructuré et personnalisable :",
+        "Les attestations sont redessinées en tableau d'identité (nom, CIN,"
       ]
     },
     {

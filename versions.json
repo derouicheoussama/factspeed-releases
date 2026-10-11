@@ -1,37 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.12.0",
-  "tag": "v9.12.0",
+  "latest": "9.13.0",
+  "tag": "v9.13.0",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.12.0/FactSpeed-Setup-9.12.0.exe",
-    "windows_taille": 137332708,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.12.0/FactSpeed-9.12.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.12.0/FactSpeed-9.12.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.0/FactSpeed-Setup-9.13.0.exe",
+    "windows_taille": 137334024,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.12.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "⏱ Pointage & présence (nouvel onglet RH) : par mois et par employé,",
-        "🏛 Déclaration CNAS mensuelle en 1 clic (bouton dans l'onglet Paie) :",
-        "Cumuls annuels sur le bulletin de paie : chaque bulletin imprime les"
+        "Gérez plusieurs sociétés dans la même installation : Paramètres →",
+        "Isolation totale des données : clients, factures, RH, réglages,",
+        "La société principale reste la base d'origine ; la licence reste valable",
+        "Le nom de chaque société est repris automatiquement de ses réglages"
       ]
     },
     {
       "titre": "Technique",
       "items": [
-        "Migration base v43 : table pointage `hr_attendance` (1 enregistrement par",
-        "Nouveaux canaux : pointage (sauvegarde par lot en transaction), cumuls"
+        "`dbFile()` résout la base active (`active-company.json`) ; `openCompanyDb`"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · garde RH complet"
+        "TypeScript 0 erreur · 120 tests · 262 smoke · garde Paramètres 14/14"
       ]
     }
   ]

@@ -1,31 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.11.4",
-  "tag": "v9.11.4",
+  "latest": "9.11.5",
+  "tag": "v9.11.5",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.4/FactSpeed-Setup-9.11.4.exe",
-    "windows_taille": 137330885,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.4/FactSpeed-9.11.4-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.4/FactSpeed-9.11.4-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.5/FactSpeed-Setup-9.11.5.exe",
+    "windows_taille": 137331162,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.5/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Corrigé",
       "items": [
-        "Détection des imprimantes du PC : dans Paramètres → Apparence, les 3",
-        "Détection avant impression : si aucune imprimante n'est installée, un",
-        "Détection du pop-up d'impression : si la boîte d'impression Windows ne"
-      ]
-    },
-    {
-      "titre": "Optimisé",
-      "items": [
-        "Fenêtre d'impression réutilisée : les impressions successives (lot,",
-        "Liste enrichie : description des imprimantes + tri (par défaut en"
+        "Changer d'offre devient logique : la fenêtre ne propose plus que des",
+        "Cartes d'offres cohérentes : avec une licence active, les offres",
+        "Message vendeur réparé : l'erreur citait un chemin supprimé",
+        "Champ de clé : placeholder mis à jour « FS-XXXX-… ou FE1-… »"
       ]
     },
     {

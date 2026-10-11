@@ -1,30 +1,35 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.11.2",
-  "tag": "v9.11.2",
+  "latest": "9.11.3",
+  "tag": "v9.11.3",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.2/FactSpeed-Setup-9.11.2.exe",
-    "windows_taille": 137330394,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.2/FactSpeed-9.11.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.2/FactSpeed-9.11.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.3/FactSpeed-Setup-9.11.3.exe",
+    "windows_taille": 137330655,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Design",
+      "titre": "Corrigé",
       "items": [
-        "Exemples concrets dans les champs vides : chaque champ des formulaires",
-        "Fiche Employé réorganisée en 2 colonnes (11 champs organisés :",
-        "Placeholders ajoutés là où il manquait : NIS, AI, adresse, conditions de"
+        "L'aperçu des documents RH s'affiche enfin : les boutons 👁 génèrent le"
+      ]
+    },
+    {
+      "titre": "Nouveau",
+      "items": [
+        "Normes algériennes renforcées : les types de congés affichent leurs",
+        "Impression de la demande de congé : bouton 🖨 sur chaque demande →"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · gardes Paramètres 14/14 et"
+        "TypeScript 0 erreur · 120 tests · 262 smoke · garde RH complet"
       ]
     }
   ]

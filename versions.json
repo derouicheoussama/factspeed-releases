@@ -1,38 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.13.2",
-  "tag": "v9.13.2",
+  "latest": "9.13.3",
+  "tag": "v9.13.3",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.2/FactSpeed-Setup-9.13.2.exe",
-    "windows_taille": 137334881,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.3/FactSpeed-Setup-9.13.3.exe",
+    "windows_taille": 137400649,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.3/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Export CNAS mensuel réparé : une coquille (`r2acc` au lieu de `round2`)",
-        "Marqueur de sauvegarde périodique réparé : la fonction d'import manquant",
-        "Expédition colis : auteur correctement journalisé : l'événement « Colis",
-        "Licence Studio : export CSV réparé (module de dialogue manquant)"
+        "Décalage du carré « Cachet & Signature » réparé sur les documents RH :"
       ]
     },
     {
-      "titre": "Nouveau",
+      "titre": "Amélioré",
       "items": [
-        "Norme de développement ESLint 9 : configuration complète (TypeScript +",
-        "Garde permanent des normes dans la suite de tests : zéro erreur ESLint,"
-      ]
-    },
-    {
-      "titre": "Nettoyage",
-      "items": [
-        "Suppression de 3 scripts d'outillage morts et cassés de l'ère v7, et d'un"
+        "Attestation de travail / Attestation de salaire : mention « Fait à …,",
+        "Demande de congé : deux zones propres côte à côte — signature de",
+        "Bulletin de paie : mêmes zones de signature spacieuses et alignées,"
       ]
     }
   ]

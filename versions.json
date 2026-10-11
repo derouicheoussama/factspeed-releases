@@ -1,35 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.11.3",
-  "tag": "v9.11.3",
+  "latest": "9.11.4",
+  "tag": "v9.11.4",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.3/FactSpeed-Setup-9.11.3.exe",
-    "windows_taille": 137330655,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.3/FactSpeed-9.11.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.3/FactSpeed-9.11.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.4/FactSpeed-Setup-9.11.4.exe",
+    "windows_taille": 137330885,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.11.4/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Corrigé",
-      "items": [
-        "L'aperçu des documents RH s'affiche enfin : les boutons 👁 génèrent le"
-      ]
-    },
     {
       "titre": "Nouveau",
       "items": [
-        "Normes algériennes renforcées : les types de congés affichent leurs",
-        "Impression de la demande de congé : bouton 🖨 sur chaque demande →"
+        "Détection des imprimantes du PC : dans Paramètres → Apparence, les 3",
+        "Détection avant impression : si aucune imprimante n'est installée, un",
+        "Détection du pop-up d'impression : si la boîte d'impression Windows ne"
+      ]
+    },
+    {
+      "titre": "Optimisé",
+      "items": [
+        "Fenêtre d'impression réutilisée : les impressions successives (lot,",
+        "Liste enrichie : description des imprimantes + tri (par défaut en"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · garde RH complet"
+        "TypeScript 0 erreur · 120 tests · 262 smoke"
       ]
     }
   ]

@@ -1,35 +1,38 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.13.1",
-  "tag": "v9.13.1",
+  "latest": "9.13.2",
+  "tag": "v9.13.2",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.1/FactSpeed-Setup-9.13.1.exe",
-    "windows_taille": 137334546,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.1/FactSpeed-9.13.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.1/FactSpeed-9.13.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.2/FactSpeed-Setup-9.13.2.exe",
+    "windows_taille": 137334881,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.2/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Sélections du thème réparées : cliquer « Clair » ou « Sombre » mettait à"
+        "Export CNAS mensuel réparé : une coquille (`r2acc` au lieu de `round2`)",
+        "Marqueur de sauvegarde périodique réparé : la fonction d'import manquant",
+        "Expédition colis : auteur correctement journalisé : l'événement « Colis",
+        "Licence Studio : export CSV réparé (module de dialogue manquant)"
       ]
     },
     {
       "titre": "Nouveau",
       "items": [
-        "🔤 Taille du texte (nouveau réglage Apparence) : Petit / Normal / Grand —",
-        "Libellé mis à jour : « Couleur du bandeau de navigation (dock) »"
+        "Norme de développement ESLint 9 : configuration complète (TypeScript +",
+        "Garde permanent des normes dans la suite de tests : zéro erreur ESLint,"
       ]
     },
     {
-      "titre": "Qualité",
+      "titre": "Nettoyage",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · garde Paramètres 14/14,"
+        "Suppression de 3 scripts d'outillage morts et cassés de l'ère v7, et d'un"
       ]
     }
   ]

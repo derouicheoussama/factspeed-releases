@@ -1,37 +1,35 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.13.0",
-  "tag": "v9.13.0",
+  "latest": "9.13.1",
+  "tag": "v9.13.1",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.0/FactSpeed-Setup-9.13.0.exe",
-    "windows_taille": 137334024,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.0/FactSpeed-9.13.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.0/FactSpeed-9.13.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.1/FactSpeed-Setup-9.13.1.exe",
+    "windows_taille": 137334546,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Corrigé",
       "items": [
-        "Gérez plusieurs sociétés dans la même installation : Paramètres →",
-        "Isolation totale des données : clients, factures, RH, réglages,",
-        "La société principale reste la base d'origine ; la licence reste valable",
-        "Le nom de chaque société est repris automatiquement de ses réglages"
+        "Sélections du thème réparées : cliquer « Clair » ou « Sombre » mettait à"
       ]
     },
     {
-      "titre": "Technique",
+      "titre": "Nouveau",
       "items": [
-        "`dbFile()` résout la base active (`active-company.json`) ; `openCompanyDb`"
+        "🔤 Taille du texte (nouveau réglage Apparence) : Petit / Normal / Grand —",
+        "Libellé mis à jour : « Couleur du bandeau de navigation (dock) »"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · garde Paramètres 14/14"
+        "TypeScript 0 erreur · 120 tests · 262 smoke · garde Paramètres 14/14,"
       ]
     }
   ]

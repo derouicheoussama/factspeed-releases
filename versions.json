@@ -1,36 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.10.1",
-  "tag": "v9.10.1",
+  "latest": "9.10.2",
+  "tag": "v9.10.2",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.1/FactSpeed-Setup-9.10.1.exe",
-    "windows_taille": 137325507,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.1/FactSpeed-9.10.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.1/FactSpeed-9.10.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.2/FactSpeed-Setup-9.10.2.exe",
+    "windows_taille": 137325575,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.2/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Verrouillage par empreinte sur Mac : les MacBooks avec Touch ID",
-        "Choix automatique du chemin : Windows Hello (PC) via WebAuthn,",
-        "Libellés adaptatifs : « Empreinte digitale (Windows Hello) » sur PC,"
+        "Ctrl+S dans les Paramètres : force la sauvegarde immédiate de tous les",
+        "Zéro saisie perdue : si vous quittez les Paramètres dans la demi-seconde",
+        "Double-clic = modifier : sur les listes Clients et Produits,"
       ]
     },
     {
-      "titre": "Sécurité",
+      "titre": "Technique",
       "items": [
-        "L'activation reste autorisée uniquement par le titulaire du compte (mot de"
+        "Nouveau garde automatique : visite les 14 onglets des Paramètres et"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke"
+        "TypeScript 0 erreur · 120 tests · 262 smoke · garde Paramètres 14/14"
       ]
     }
   ]

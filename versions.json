@@ -1,39 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.10.0",
-  "tag": "v9.10.0",
+  "latest": "9.10.1",
+  "tag": "v9.10.1",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.0/FactSpeed-Setup-9.10.0.exe",
-    "windows_taille": 137325347,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.0/FactSpeed-9.10.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.0/FactSpeed-9.10.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.1/FactSpeed-Setup-9.10.1.exe",
+    "windows_taille": 137325507,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.10.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Le menu latéral laisse place au dock du bas : une barre de navigation",
-        "« Tous les modules » : bouton à droite du dock ouvrant une grille avec",
-        "Barre du haut enrichie : logo, bouton « Nouvelle facture » principal,",
-        "Badges d'alerte sur les bulles (impayés à relancer, stock bas…) —",
-        "La couleur personnalisable du menu (Paramètres → Apparence) s'applique"
+        "Verrouillage par empreinte sur Mac : les MacBooks avec Touch ID",
+        "Choix automatique du chemin : Windows Hello (PC) via WebAuthn,",
+        "Libellés adaptatifs : « Empreinte digitale (Windows Hello) » sur PC,"
       ]
     },
     {
-      "titre": "Technique",
+      "titre": "Sécurité",
       "items": [
-        "Ancien menu latéral supprimé (code + styles) — navigation 100 % dock",
-        "Les raccourcis clavier (Alt+1..9, Ctrl+N) sont conservés"
+        "L'activation reste autorisée uniquement par le titulaire du compte (mot de"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "TypeScript 0 erreur · 120 tests · 262 smoke · gardes UI adaptés au dock"
+        "TypeScript 0 erreur · 120 tests · 262 smoke"
       ]
     }
   ]

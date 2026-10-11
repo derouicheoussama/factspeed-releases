@@ -1,32 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.15.0",
-  "tag": "v9.15.0",
+  "latest": "9.15.1",
+  "tag": "v9.15.1",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.15.0/FactSpeed-Setup-9.15.0.exe",
-    "windows_taille": 137406679,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.15.1/FactSpeed-Setup-9.15.1.exe",
+    "windows_taille": 137406574,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.15.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.15.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Amélioré",
       "items": [
-        "Le dock du bas se personnalise (Paramètres → Apparence → 🧭 Dock du bas) :",
-        "Préréglages par métier/activité en un clic : 🏢 Complet, 🏪 Commerce",
-        "Personnalisation fine : cliquez sur un raccourci pour le masquer ou le",
-        "Bouton ↺ Tout afficher pour revenir à l'affichage complet",
-        "L'Accueil reste toujours affiché et la grille « Tous les modules »"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Crash au démarrage potentiel du dock (variable utilisée avant sa"
+        "Logo FactSpeed affiché dans l'assistant de première installation — la"
       ]
     }
   ]

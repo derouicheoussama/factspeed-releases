@@ -1,30 +1,43 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.13.3",
-  "tag": "v9.13.3",
+  "latest": "9.14.0",
+  "tag": "v9.14.0",
   "date": "2026-10-11",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.3/FactSpeed-Setup-9.13.3.exe",
-    "windows_taille": 137400649,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.14.0/FactSpeed-Setup-9.14.0.exe",
+    "windows_taille": 137405581,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.13.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.14.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "Décalage du carré « Cachet & Signature » réparé sur les documents RH :"
+        "4 documents RH supplémentaires :",
+        "📜 Certificat de travail — obligatoire à la fin du contrat (article 62",
+        "🚗 Ordre de mission — destination, objet, dates, moyen de transport et",
+        "⏰ Autorisation d'absence — quelques heures : date, horaires, motif,",
+        "⚖️ Sanction écrite — avertissement, blâme ou mise à pied : faits",
+        "Répertoire du personnel : recherche instantanée (nom, fonction, CNAS,",
+        "Fiche employé enrichie : date et lieu de naissance, adresse (exigés sur"
       ]
     },
     {
       "titre": "Amélioré",
       "items": [
-        "Attestation de travail / Attestation de salaire : mention « Fait à …,",
-        "Demande de congé : deux zones propres côte à côte — signature de",
-        "Bulletin de paie : mêmes zones de signature spacieuses et alignées,"
+        "Attestation de travail aux normes algériennes : entête complet",
+        "Signataire enregistré : nom + fonction du signataire (Gérant par défaut)",
+        "Documents du personnel réorganisés en catégories : Attestations,",
+        "Références de documents suffixées (-AT, -AS, -CT, -OM, -AA, -AV)"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Double « DA » sur 6 montants imprimés (net à payer du bulletin,"
       ]
     }
   ]

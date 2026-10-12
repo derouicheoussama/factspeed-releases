@@ -1,27 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.25.0",
-  "tag": "v9.25.0",
+  "latest": "9.26.0",
+  "tag": "v9.26.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.25.0/FactSpeed-Setup-9.25.0.exe",
-    "windows_taille": 137541132,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.25.0/FactSpeed-9.25.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.25.0/FactSpeed-9.25.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.26.0/FactSpeed-Setup-9.26.0.exe",
+    "windows_taille": 137025041,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.26.0/FactSpeed-9.26.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.26.0/FactSpeed-9.26.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.25.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.26.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Mise à jour niveau pro",
+      "titre": "Logos 4K partout",
       "items": [
-        "Réessais courts après un échec réseau : plus besoin d'attendre une",
-        "Re-vérification au retour de veille et au déverrouillage de la",
-        "Bouton « Installer » amélioré : l'application se relance seule après",
-        "Vérification manuelle résistante : en cas de micro-coupure, un",
-        "Anti-cache sur versions.json : le flux de déploiement progressif est",
-        "Publication fiabilisée (scripts) : le fichier latest.yml de la"
+        "Nouveaux logos officiels 4K placés à chacun de leurs emplacements :",
+        "Icône Windows reconstruite : 6 résolutions nettes de 16 à 256 px",
+        "Poids maîtrisé : chaque image est redimensionnée à la taille"
       ]
     }
   ]

@@ -1,31 +1,26 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.18.0",
-  "tag": "v9.18.0",
+  "latest": "9.19.0",
+  "tag": "v9.19.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.18.0/FactSpeed-Setup-9.18.0.exe",
-    "windows_taille": 137409502,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.0/FactSpeed-Setup-9.19.0.exe",
+    "windows_taille": 137410722,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.18.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "👤 Mon compte → nouvel onglet « 🔑 Licence & société » :",
-        "La formule active en grand (Pro / Duo / Business — ou essai avec les",
-        "La société renseignée à l'installation (nom, forme, RC, NIF, NIS, AI,"
-      ]
-    },
-    {
-      "titre": "Amélioré",
-      "items": [
-        "Synchronisation licence → profil : à la connexion, les champs vides",
-        "Installation → profil : l'administrateur créé à l'installation hérite"
+        "Facturez en devise étrangère : chaque document peut être établi en",
+        "Paramètres → 🧾 Facturation → 💱 Devises : devise par défaut des",
+        "Le document imprimé affiche tous les montants dans la devise choisie",
+        "Le droit de timbre ne s'applique qu'aux documents en DZD (il est dû",
+        "L'éditeur affiche la devise, le taux appliqué et la contre-valeur du net"
       ]
     }
   ]

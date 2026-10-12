@@ -1,23 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.20.1",
-  "tag": "v9.20.1",
+  "latest": "9.21.0",
+  "tag": "v9.21.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.20.1/FactSpeed-Setup-9.20.1.exe",
-    "windows_taille": 137416557,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.0/FactSpeed-Setup-9.21.0.exe",
+    "windows_taille": 137416869,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.20.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Nouveau",
+      "items": [
+        "Codes promo validés EN LIGNE par factspeed.com (plus de liste locale) :",
+        "Business « par poste » : 24 000 DA / an par poste — les totaux"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Tableau de bord RH : la requête demandait des colonnes calculées",
-        "DAS : même correction — les agrégats annuels (brut, CNAS, IRG retenu,"
+        "Messages de licence exacts (fini « raison inconnue ») : « Clé inconnue",
+        "Licence supprimée/révoquée = blocage immédiat : si le serveur répond"
       ]
     }
   ]

@@ -1,23 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.21.3",
-  "tag": "v9.21.3",
+  "latest": "9.21.4",
+  "tag": "v9.21.4",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.3/FactSpeed-Setup-9.21.3.exe",
-    "windows_taille": 137535694,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.4/FactSpeed-Setup-9.21.4.exe",
+    "windows_taille": 137534533,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.4/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "Format de clé dans la fenêtre d'activation : le champ annonçait",
-        "Logo officiel FactSpeed dans l'en-tête de la fenêtre d'activation"
+        "Nouvelle règle anti-abus : tout nouvel essai gratuit est refusé sur",
+        "Explication claire à chaque refus : « Un essai ou une licence a déjà"
       ]
     }
   ]

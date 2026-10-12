@@ -1,31 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.17.0",
-  "tag": "v9.17.0",
+  "latest": "9.17.1",
+  "tag": "v9.17.1",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.0/FactSpeed-Setup-9.17.0.exe",
-    "windows_taille": 137409089,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.1/FactSpeed-Setup-9.17.1.exe",
+    "windows_taille": 137409400,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Amélioré",
       "items": [
-        "À l'activation d'une licence, l'accueil affiche votre formule :",
-        "Écran de célébration après activation : « 🎉 Bienvenue dans FactSpeed",
-        "Écran de connexion : la formule active s'affiche en pastille dorée à"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Une clé déjà installée prime sur l'essai expiré : un client licencié",
-        "Le smoke ne pollue plus le poste de développement : l'ancre"
+        "Résumé avant finalisation : quand le client colle une clé hors ligne,",
+        "Étape Licence : confirmation immédiate au collage — « ✓ Clé FactSpeed"
       ]
     }
   ]

@@ -1,39 +1,27 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.24.0",
-  "tag": "v9.24.0",
+  "latest": "9.25.0",
+  "tag": "v9.25.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.24.0/FactSpeed-Setup-9.24.0.exe",
-    "windows_taille": 137539810,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.24.0/FactSpeed-9.24.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.24.0/FactSpeed-9.24.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
+    "windows_taille": null,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.24.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.25.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité  serveur de licences",
+      "titre": "Mise à jour niveau pro",
       "items": [
-        "CORS en liste blanche (api.php, generate.php, visit.php) : l'en-tête",
-        "Anti-abus (api.php) : limite de 60 requêtes/minute/IP sur",
-        "En-têtes de sécurité : Referrer-Policy, X-Frame-Options,",
-        "Token admin POST-only (generate.php) : le token n'est plus accepté",
-        "Entrées plafonnées (api.php) : machine/empreinte/installation/version"
-      ]
-    },
-    {
-      "titre": "Sécurité  application",
-      "items": [
-        "Message 429 exact : « Vérifications trop fréquentes. Réessayez dans",
-        "Garde anti-régression permanent (`scripts/_securite-check.mjs`,"
-      ]
-    },
-    {
-      "titre": "Audit Mimosa",
-      "items": [
-        "36 findings passés au crible : 3 vraies failles corrigées (CORS),"
+        "Réessais courts après un échec réseau : plus besoin d'attendre une",
+        "Re-vérification au retour de veille et au déverrouillage de la",
+        "Bouton « Installer » amélioré : l'application se relance seule après",
+        "Vérification manuelle résistante : en cas de micro-coupure, un",
+        "Anti-cache sur versions.json : le flux de déploiement progressif est",
+        "Publication fiabilisée (scripts) : le fichier latest.yml de la"
       ]
     }
   ]

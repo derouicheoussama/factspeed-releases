@@ -1,22 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.17.2",
-  "tag": "v9.17.2",
+  "latest": "9.17.3",
+  "tag": "v9.17.3",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.2/FactSpeed-Setup-9.17.2.exe",
-    "windows_taille": 137410336,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.3/FactSpeed-Setup-9.17.3.exe",
+    "windows_taille": 137409239,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "Badge Pro / Duo / Business mal placé sur l'écran de connexion : la"
+        "La fenêtre d'installation Mac est aux couleurs de la marque : fini la",
+        "Titre de fenêtre dédié (« FactSpeed — Installation »), libellés sous les"
       ]
     }
   ]

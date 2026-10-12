@@ -1,26 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.19.2",
-  "tag": "v9.19.2",
+  "latest": "9.20.0",
+  "tag": "v9.20.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.2/FactSpeed-Setup-9.19.2.exe",
-    "windows_taille": 137411613,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.20.0/FactSpeed-Setup-9.20.0.exe",
+    "windows_taille": 137415737,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.20.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Nouveau",
       "items": [
-        "Écran de connexion entièrement redessiné :",
-        "Accueil personnalisé : « Bienvenue sur FactSpeed Pro 👋 » (ou Duo /",
-        "Carte premium : liseré dégradé en haut, coins plus arrondis, ombre",
-        "Bouton de connexion en dégradé de marque avec effet au survol",
-        "Hiérarchie visuelle clarifiée : logo → marque → accueil → formulaire"
+        "📈 Tableau de bord RH (premier onglet de la Gestion RH) : effectif actif",
+        "💳 Prêts & avances sur salaire (onglet Paie) : enregistrez un prêt ou",
+        "📄 DAS — Déclaration annuelle des salaires : export Excel par employé",
+        "📄 Contrat de travail (CDI) dans les Documents RH : contrat complet"
       ]
     }
   ]

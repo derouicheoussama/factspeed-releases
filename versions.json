@@ -1,25 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.22.0",
-  "tag": "v9.22.0",
+  "latest": "9.23.0",
+  "tag": "v9.23.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.22.0/FactSpeed-Setup-9.22.0.exe",
-    "windows_taille": 137536175,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.23.0/FactSpeed-Setup-9.23.0.exe",
+    "windows_taille": 137538186,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.22.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.23.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé (important)",
+      "titre": "Nouveau",
       "items": [
-        "Le code machine était identique sur tous les ordinateurs : l'ancien",
-        "Nouvel identifiant machine réel : dérivé du MachineGuid Windows",
-        "Aucun identifiant de secours : si la lecture échoue, l'activation",
-        "Nouveaux messages : « Identifiant de machine illisible… » et « Un essai"
+        "Email transmis à l'activation : l'activation en ligne envoie l'email",
+        "Libération de poste (👤 Mon compte → 🔑 Licence & société) : bouton"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Nouveaux messages serveur affichés tels quels : « Un essai a déjà été",
+        "La version installée est transmise à chaque vérification et heartbeat"
       ]
     }
   ]

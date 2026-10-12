@@ -1,30 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.21.0",
-  "tag": "v9.21.0",
+  "latest": "9.21.1",
+  "tag": "v9.21.1",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.0/FactSpeed-Setup-9.21.0.exe",
-    "windows_taille": 137416869,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.1/FactSpeed-Setup-9.21.1.exe",
+    "windows_taille": 137417087,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.21.1/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Nouveau",
-      "items": [
-        "Codes promo validés EN LIGNE par factspeed.com (plus de liste locale) :",
-        "Business « par poste » : 24 000 DA / an par poste — les totaux"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Messages de licence exacts (fini « raison inconnue ») : « Clé inconnue",
-        "Licence supprimée/révoquée = blocage immédiat : si le serveur répond"
+        "Durée d'essai affichée synchronisée partout sur 10 jours : la fenêtre"
       ]
     }
   ]

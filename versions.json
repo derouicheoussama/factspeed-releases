@@ -1,22 +1,26 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.19.1",
-  "tag": "v9.19.1",
+  "latest": "9.19.2",
+  "tag": "v9.19.2",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.1/FactSpeed-Setup-9.19.1.exe",
-    "windows_taille": 137411659,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.2/FactSpeed-Setup-9.19.2.exe",
+    "windows_taille": 137411613,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.19.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Amélioré",
       "items": [
-        "Message de vérification en ligne reformulé : la ligne « grâce de 14"
+        "Écran de connexion entièrement redessiné :",
+        "Accueil personnalisé : « Bienvenue sur FactSpeed Pro 👋 » (ou Duo /",
+        "Carte premium : liseré dégradé en haut, coins plus arrondis, ombre",
+        "Bouton de connexion en dégradé de marque avec effet au survol",
+        "Hiérarchie visuelle clarifiée : logo → marque → accueil → formulaire"
       ]
     }
   ]

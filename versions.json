@@ -1,22 +1,26 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.15.1",
-  "tag": "v9.15.1",
-  "date": "2026-10-11",
+  "latest": "9.16.0",
+  "tag": "v9.16.0",
+  "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.15.1/FactSpeed-Setup-9.15.1.exe",
-    "windows_taille": 137406574,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
+    "windows_taille": null,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.15.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.16.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Nouveau",
       "items": [
-        "Logo FactSpeed affiché dans l'assistant de première installation — la"
+        "Après les 10 jours d'essai, FactSpeed se verrouille entièrement : un",
+        "« Contactez FactSpeed pour obtenir votre licence et profitez de toutes",
+        "Bouton WhatsApp (+213 770 60 09 57) avec message pré-rempli, bouton",
+        "« J'ai déjà une licence » : la clé se saisit directement sur l'écran",
+        "L'écran réapparaît à chaque lancement tant qu'aucune licence valide n'est"
       ]
     }
   ]

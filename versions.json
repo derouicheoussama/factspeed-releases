@@ -1,26 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.16.0",
-  "tag": "v9.16.0",
+  "latest": "9.17.0",
+  "tag": "v9.17.0",
   "date": "2026-10-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
-    "windows_taille": null,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.0/FactSpeed-Setup-9.17.0.exe",
+    "windows_taille": 137409089,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.16.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.17.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Nouveau",
       "items": [
-        "Après les 10 jours d'essai, FactSpeed se verrouille entièrement : un",
-        "« Contactez FactSpeed pour obtenir votre licence et profitez de toutes",
-        "Bouton WhatsApp (+213 770 60 09 57) avec message pré-rempli, bouton",
-        "« J'ai déjà une licence » : la clé se saisit directement sur l'écran",
-        "L'écran réapparaît à chaque lancement tant qu'aucune licence valide n'est"
+        "À l'activation d'une licence, l'accueil affiche votre formule :",
+        "Écran de célébration après activation : « 🎉 Bienvenue dans FactSpeed",
+        "Écran de connexion : la formule active s'affiche en pastille dorée à"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Une clé déjà installée prime sur l'essai expiré : un client licencié",
+        "Le smoke ne pollue plus le poste de développement : l'ancre"
       ]
     }
   ]

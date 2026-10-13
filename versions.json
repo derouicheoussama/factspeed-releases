@@ -1,26 +1,32 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.28.0",
-  "tag": "v9.28.0",
+  "latest": "9.29.0",
+  "tag": "v9.29.0",
   "date": "2026-10-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/FactSpeed-Setup-9.28.0.exe",
-    "windows_taille": 137025479,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/FactSpeed-9.28.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/FactSpeed-9.28.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.29.0/FactSpeed-Setup-9.29.0.exe",
+    "windows_taille": 137026327,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.29.0/FactSpeed-9.29.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.29.0/FactSpeed-9.29.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.29.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Connexion redessinée",
+      "titre": "Cloche de notifications (barre du haut)",
       "items": [
-        "Moins de texte, plus d'expert : suppression du sous-titre de marque,",
-        "Séparateur discret entre l'empreinte digitale et le mot de passe",
-        "Phrase licence raccourcie à une seule ligne dans l'écran de",
-        "Liens du pied devenus réels : « Site web » ouvre le site officiel,",
-        "Bouton empreinte digitale allégé (fond clair, bord doux, survol calme)"
+        "Compteur visible en permanence : un badge rouge affiché sur la cloche",
+        "Options cliquables : chaque alerte mène directement à la bonne page",
+        "Icône nette : la cloche est un tracé vectoriel (SVG) qui suit la"
+      ]
+    },
+    {
+      "titre": "Pastille licence lisible sur Windows",
+      "items": [
+        "L'emoji 🔑 est remplacé par une clé vectorielle qui prend la couleur",
+        "Les nombres ne sont plus coupés : chiffres à largeur fixe",
+        "Perpétuelle affichée « ∞ » (symbole net) au lieu de l'emoji ♾"
       ]
     }
   ]

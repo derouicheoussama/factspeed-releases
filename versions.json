@@ -1,28 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.35.0",
-  "tag": "v9.35.0",
-  "date": "2026-10-13",
+  "latest": "9.36.0",
+  "tag": "v9.36.0",
+  "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.35.0/FactSpeed-Setup-9.35.0.exe",
-    "windows_taille": 137034399,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.35.0/FactSpeed-9.35.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.35.0/FactSpeed-9.35.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.36.0/FactSpeed-Setup-9.36.0.exe",
+    "windows_taille": 137034655,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.36.0/FactSpeed-9.36.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.36.0/FactSpeed-9.36.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.35.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.36.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Harmonisé",
+      "titre": "Corrigé  icônes invisibles sur couleur claire",
       "items": [
-        "Le popup « Tous les modules » suit désormais la couleur du logiciel :"
-      ]
-    },
-    {
-      "titre": "Écran de verrouillage",
-      "items": [
-        "Lien « Mot de passe oublié ? » ajouté sur l'écran « Session"
+        "Étudié et corrigé : quand la couleur du logiciel était claire (blanc,",
+        "Contraste automatique : le logiciel mesure maintenant la luminance",
+        "Le popup « Tous les modules » garde un fond sombre neutre teinté quand"
       ]
     }
   ]

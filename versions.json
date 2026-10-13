@@ -1,32 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.33.0",
-  "tag": "v9.33.0",
+  "latest": "9.34.0",
+  "tag": "v9.34.0",
   "date": "2026-10-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/FactSpeed-Setup-9.33.0.exe",
-    "windows_taille": 137033084,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/FactSpeed-9.33.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/FactSpeed-9.33.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.34.0/FactSpeed-Setup-9.34.0.exe",
+    "windows_taille": 137034533,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.34.0/FactSpeed-9.34.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.34.0/FactSpeed-9.34.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.34.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Vos factures dans un tableur Google en temps réel",
+      "titre": "Mode démo (page de connexion)",
       "items": [
-        "Nouveau module Paramètres → Google Sheets : chaque facture validée",
-        "Mise à jour EN PLACE, jamais de doublon : quand une facture devient",
-        "API officielle Google via compte de service (JWT RS256 signé",
-        "Toutes les 5 minutes (interrupteur) ou bouton « Synchroniser",
-        "Confidentialité : la clé privée du compte de service reste sur votre"
+        "« 🎬 Découvrir avec des données de démonstration » sur l'écran de",
+        "Isolation totale : les données réelles ne sont jamais touchées ",
+        "Utilisé par les revendeurs, les démonstrations commerciales et pour"
       ]
     },
     {
-      "titre": "Correctif interne",
+      "titre": "Export comptable CSV (Comptabilité  Journal SCF)",
       "items": [
-        "Le moteur de relances utilisait une colonne calculée comme si elle"
+        "Nouveau bouton « ⬇ CSV compta » à côté de l'export Excel : le"
       ]
     }
   ]

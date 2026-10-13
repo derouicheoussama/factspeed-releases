@@ -1,36 +1,26 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.27.0",
-  "tag": "v9.27.0",
+  "latest": "9.28.0",
+  "tag": "v9.28.0",
   "date": "2026-10-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.27.0/FactSpeed-Setup-9.27.0.exe",
-    "windows_taille": 137025508,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.27.0/FactSpeed-9.27.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.27.0/FactSpeed-9.27.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/FactSpeed-Setup-9.28.0.exe",
+    "windows_taille": 137025479,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/FactSpeed-9.28.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/FactSpeed-9.28.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.27.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.28.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ouverture plein écran et responsive",
+      "titre": "Connexion redessinée",
       "items": [
-        "L'application s'ouvre désormais maximisée : plein écran de travail",
-        "Plancher responsive élargi : taille minimum abaissée à 1024×640 —"
-      ]
-    },
-    {
-      "titre": "Dock du bas plus fluide",
-      "items": [
-        "Animations compositées GPU : survol et sélection n'animent plus que",
-        "Navigation au dock nettement plus réactive, notamment sur les machines"
-      ]
-    },
-    {
-      "titre": "Boutons mobiles rendus fonctionnels",
-      "items": [
-        "Les badges Google Play / App Store (« Prochainement ») étaient des"
+        "Moins de texte, plus d'expert : suppression du sous-titre de marque,",
+        "Séparateur discret entre l'empreinte digitale et le mot de passe",
+        "Phrase licence raccourcie à une seule ligne dans l'écran de",
+        "Liens du pied devenus réels : « Site web » ouvre le site officiel,",
+        "Bouton empreinte digitale allégé (fond clair, bord doux, survol calme)"
       ]
     }
   ]

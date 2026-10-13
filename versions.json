@@ -1,32 +1,32 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.32.0",
-  "tag": "v9.32.0",
+  "latest": "9.33.0",
+  "tag": "v9.33.0",
   "date": "2026-10-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.32.0/FactSpeed-Setup-9.32.0.exe",
-    "windows_taille": 137029898,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.32.0/FactSpeed-9.32.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.32.0/FactSpeed-9.32.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/FactSpeed-Setup-9.33.0.exe",
+    "windows_taille": 137033084,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/FactSpeed-9.33.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/FactSpeed-9.33.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.32.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.33.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sauvegarde cloud (Paramètres  Sauvegardes)",
+      "titre": "Vos factures dans un tableur Google en temps réel",
       "items": [
-        "Nouveau champ « ☁ Sauvegarde cloud » : pointez le dossier de votre",
-        "Chiffrement de la copie cloud (case dédiée) : la copie partie vers",
-        "Marche pour toutes les sauvegardes : manuelle, automatique, programmée"
+        "Nouveau module Paramètres → Google Sheets : chaque facture validée",
+        "Mise à jour EN PLACE, jamais de doublon : quand une facture devient",
+        "API officielle Google via compte de service (JWT RS256 signé",
+        "Toutes les 5 minutes (interrupteur) ou bouton « Synchroniser",
+        "Confidentialité : la clé privée du compte de service reste sur votre"
       ]
     },
     {
-      "titre": "Relances clients par email (Paramètres  Recouvrement)",
+      "titre": "Correctif interne",
       "items": [
-        "Interrupteur « Relances clients par email » : dès qu'une facture",
-        "Anti-spam intégré : une seule relance par jalon et par facture",
-        "Fonctionne avec le mode manuel existant (Paiements → Impayés) : les"
+        "Le moteur de relances utilisait une colonne calculée comme si elle"
       ]
     }
   ]

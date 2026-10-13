@@ -1,25 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.30.0",
-  "tag": "v9.30.0",
+  "latest": "9.31.0",
+  "tag": "v9.31.0",
   "date": "2026-10-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.30.0/FactSpeed-Setup-9.30.0.exe",
-    "windows_taille": 137028013,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.30.0/FactSpeed-9.30.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.30.0/FactSpeed-9.30.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.31.0/FactSpeed-Setup-9.31.0.exe",
+    "windows_taille": 137028496,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.31.0/FactSpeed-9.31.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.31.0/FactSpeed-9.31.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.30.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.31.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Fini les emoji flous  place aux tracés nets",
+      "titre": "Fini les taux saisis à la main",
       "items": [
-        "30 icônes de modules redessinées en SVG vectoriel (Tableau de bord,",
-        "Zéro pixelisation : les tracés 24×24 s'affichent nets à toute",
-        "Barre du haut harmonisée : mode clair/sombre, verrouillage et",
-        "Compatibilité maximale : un module sans icône tracée retombe sur son"
+        "Un bouton « Actualiser les taux sur Internet » dans Paramètres →",
+        "Actualisation automatique quotidienne (option, activable par case) :",
+        "Traçabilité : date et source de la dernière mise à jour affichées",
+        "100 % hors ligne par défaut : en cas d'absence d'Internet, les taux"
       ]
     }
   ]

@@ -1,23 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.37.1",
-  "tag": "v9.37.1",
+  "latest": "9.38.0",
+  "tag": "v9.38.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.37.1/FactSpeed-Setup-9.37.1.exe",
-    "windows_taille": 137048891,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.37.1/FactSpeed-9.37.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.37.1/FactSpeed-9.37.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/FactSpeed-Setup-9.38.0.exe",
+    "windows_taille": 137049817,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/FactSpeed-9.38.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/FactSpeed-9.38.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.37.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Orientation du menu au choix",
       "items": [
-        "Le mode démo plantait à la création (`NOT NULL constraint failed:",
-        "Si le remplissage échoue, le fichier de la société démo partielle est"
+        "Deux modes de navigation : le dock horizontal en bas (comme",
+        "Réglage dans Paramètres → Apparence → « Orientation du menu »,",
+        "Alt + M bascule l'orientation à tout moment, depuis n'importe quel"
+      ]
+    },
+    {
+      "titre": "Contrôle clavier professionnel",
+      "items": [
+        "F1 ouvre l'aide des raccourcis (liste complète toujours sous la main)",
+        "Ctrl + , ouvre les Paramètres",
+        "Ctrl + L verrouille la session instantanément",
+        "S'ajoutent aux raccourcis existants : Alt + 1…9 (navigation), Ctrl + N"
       ]
     }
   ]

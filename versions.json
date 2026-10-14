@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.44.0",
-  "tag": "v9.44.0",
+  "latest": "9.45.0",
+  "tag": "v9.45.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/FactSpeed-Setup-9.44.0.exe",
-    "windows_taille": 137050629,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/FactSpeed-9.44.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/FactSpeed-9.44.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.45.0/FactSpeed-Setup-9.45.0.exe",
+    "windows_taille": 137051102,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.45.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé  messages d'erreur techniques",
+      "titre": "Désinstallation propre",
       "items": [
-        "Fini le jargon : « Error invoking remote method 'setup:complete':",
-        "Retour intelligent : si le nom choisi est déjà pris, l'assistant"
+        "Le désinstalleur Windows propose désormais une case « supprimer les"
       ]
     },
     {
-      "titre": "Nom d'utilisateur vérifié en direct",
+      "titre": "Mise à jour visible en permanence dans la barre du haut",
       "items": [
-        "À l'étape Administrateur, le nom est vérifié pendant la saisie :"
+        "Pastille dédiée : pendant le téléchargement, elle affiche la",
+        "Sauvegarde de sécurité automatique juste avant chaque installation de"
       ]
     }
   ]

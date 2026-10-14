@@ -1,33 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.38.0",
-  "tag": "v9.38.0",
+  "latest": "9.39.0",
+  "tag": "v9.39.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/FactSpeed-Setup-9.38.0.exe",
-    "windows_taille": 137049817,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/FactSpeed-9.38.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/FactSpeed-9.38.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.39.0/FactSpeed-Setup-9.39.0.exe",
+    "windows_taille": 137050118,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.39.0/FactSpeed-9.39.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.39.0/FactSpeed-9.39.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.38.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.39.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Orientation du menu au choix",
+      "titre": "Fenêtre séparée  fonctionnement unique",
       "items": [
-        "Deux modes de navigation : le dock horizontal en bas (comme",
-        "Réglage dans Paramètres → Apparence → « Orientation du menu »,",
-        "Alt + M bascule l'orientation à tout moment, depuis n'importe quel"
+        "Nouveau bouton « 🗔 Fenêtre dédiée » dans Livraisons : le module",
+        "La fenêtre dédiée contient le module seul (Expéditions +",
+        "Un seul exemplaire à la fois : rouvrir focalise la fenêtre existante"
       ]
     },
     {
-      "titre": "Contrôle clavier professionnel",
+      "titre": "Rappel du module",
       "items": [
-        "F1 ouvre l'aide des raccourcis (liste complète toujours sous la main)",
-        "Ctrl + , ouvre les Paramètres",
-        "Ctrl + L verrouille la session instantanément",
-        "S'ajoutent aux raccourcis existants : Alt + 1…9 (navigation), Ctrl + N"
+        "Synchronisation officielle : Yalidine (API-ID + jeton), ZR"
       ]
     }
   ]

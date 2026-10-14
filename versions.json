@@ -1,23 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.47.0",
-  "tag": "v9.47.0",
+  "latest": "9.48.0",
+  "tag": "v9.48.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/FactSpeed-Setup-9.47.0.exe",
-    "windows_taille": 137051356,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/FactSpeed-9.47.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/FactSpeed-9.47.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.0/FactSpeed-Setup-9.48.0.exe",
+    "windows_taille": 137051206,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.0/FactSpeed-9.48.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.0/FactSpeed-9.48.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La fenêtre dédiée Livraisons s'affichait blanche : les écrans de",
-        "Le module Livraisons est désormais rendu en priorité absolue dans sa"
+        "L'assistant de configuration se représentait à chaque lancement en",
+        "Compte démo praticable : identifiants affichés sur l'écran de"
       ]
     }
   ]

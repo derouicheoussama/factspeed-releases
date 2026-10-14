@@ -1,24 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.50.0",
-  "tag": "v9.50.0",
+  "latest": "9.51.0",
+  "tag": "v9.51.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/FactSpeed-Setup-9.50.0.exe",
-    "windows_taille": 137051190,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/FactSpeed-9.50.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/FactSpeed-9.50.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.51.0/FactSpeed-Setup-9.51.0.exe",
+    "windows_taille": 137052143,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.51.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Installateur",
+      "titre": "Corrigé   je ne reçois pas la mise à jour",
       "items": [
-        "À la fin d'une installation réussie (assistant interactif), le",
-        "Jamais pendant les mises à jour silencieuses : la redirection ne se",
-        "À prévoir côté site : créer la page `/merci` (bienvenue + guide +"
+        "Cause trouvée : la vérification de mise à jour interrogeait",
+        "Double flux : l'application interroge maintenant d'abord le flux",
+        "Le flux racine contient les deux fichiers (Windows et Mac) avec URLs"
       ]
     }
   ]

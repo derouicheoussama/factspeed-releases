@@ -1,35 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.42.0",
-  "tag": "v9.42.0",
+  "latest": "9.43.0",
+  "tag": "v9.43.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.42.0/FactSpeed-Setup-9.42.0.exe",
-    "windows_taille": 137050422,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.42.0/FactSpeed-9.42.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.42.0/FactSpeed-9.42.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/FactSpeed-Setup-9.43.0.exe",
+    "windows_taille": 137050308,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/FactSpeed-9.43.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/FactSpeed-9.43.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.42.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé  le bouton  Aide  ne faisait rien",
+      "titre": "Résumé avant finalisation repensé",
       "items": [
-        "Dans l'assistant d'installation, « ? Aide » n'était qu'un texte décoratif :"
-      ]
-    },
-    {
-      "titre": "Communes proposées automatiquement",
-      "items": [
-        "À l'étape « Informations de l'entreprise », choisir la wilaya propose",
-        "La même logique existe déjà dans Clients et Livraisons"
-      ]
-    },
-    {
-      "titre": "Écran d'activité peaufiné",
-      "items": [
-        "Icônes des métiers dans des pastilles arrondies, sélection mise en évidence"
+        "Cartes détaillées avec icônes : base de données (statut), entreprise,",
+        "La licence reflète la formule réelle : clé Pro / Duo / Business"
       ]
     }
   ]

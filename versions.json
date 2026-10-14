@@ -1,24 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.40.0",
-  "tag": "v9.40.0",
+  "latest": "9.41.0",
+  "tag": "v9.41.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.40.0/FactSpeed-Setup-9.40.0.exe",
-    "windows_taille": 137050111,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.40.0/FactSpeed-9.40.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.40.0/FactSpeed-9.40.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.41.0/FactSpeed-Setup-9.41.0.exe",
+    "windows_taille": 137050164,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.41.0/FactSpeed-9.41.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.41.0/FactSpeed-9.41.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.40.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.41.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Mon compte repensé",
+      "titre": "Mode d'emploi PDF professionnel",
       "items": [
-        "La bannière du profil suit désormais la couleur du logiciel (même",
-        "Votre logo FactSpeed comme photo par défaut : tant qu'aucune photo",
-        "Ajouter une photo reste un clic sur l'appareil photo 📷"
+        "Documentation complète générée automatiquement :",
+        "Régénérable à chaque mise à jour : `npm run manuel` — la version et"
+      ]
+    },
+    {
+      "titre": "Contraste vérifié partout",
+      "items": [
+        "Règle appliquée : jamais clair sur clair, jamais foncé sur foncé",
+        "Dernier cas corrigé : la bannière de 👤 Mon compte avec une couleur"
       ]
     }
   ]

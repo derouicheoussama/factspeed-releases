@@ -1,23 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.43.0",
-  "tag": "v9.43.0",
+  "latest": "9.44.0",
+  "tag": "v9.44.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/FactSpeed-Setup-9.43.0.exe",
-    "windows_taille": 137050308,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/FactSpeed-9.43.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/FactSpeed-9.43.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/FactSpeed-Setup-9.44.0.exe",
+    "windows_taille": 137050629,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/FactSpeed-9.44.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/FactSpeed-9.44.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.43.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.44.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Résumé avant finalisation repensé",
+      "titre": "Corrigé  messages d'erreur techniques",
       "items": [
-        "Cartes détaillées avec icônes : base de données (statut), entreprise,",
-        "La licence reflète la formule réelle : clé Pro / Duo / Business"
+        "Fini le jargon : « Error invoking remote method 'setup:complete':",
+        "Retour intelligent : si le nom choisi est déjà pris, l'assistant"
+      ]
+    },
+    {
+      "titre": "Nom d'utilisateur vérifié en direct",
+      "items": [
+        "À l'étape Administrateur, le nom est vérifié pendant la saisie :"
       ]
     }
   ]

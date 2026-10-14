@@ -1,23 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.48.1",
-  "tag": "v9.48.1",
+  "latest": "9.49.0",
+  "tag": "v9.49.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.1/FactSpeed-Setup-9.48.1.exe",
-    "windows_taille": 137051120,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.1/FactSpeed-9.48.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.1/FactSpeed-9.48.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/FactSpeed-Setup-9.49.0.exe",
+    "windows_taille": 137051193,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/FactSpeed-9.49.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/FactSpeed-9.49.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.48.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Sécurité renforcée au niveau du binaire",
       "items": [
-        "La fenêtre dédiée Livraisons s'affichait blanche dans la version",
-        "Contacts licence dans l'assistant : à l'étape Licence, un encart"
+        "Fusibles Electron activés : le binaire installé est verrouillé —",
+        "Complète la protection existante : installation dans Program Files"
       ]
     }
   ]

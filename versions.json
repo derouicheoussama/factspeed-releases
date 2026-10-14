@@ -1,23 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.49.0",
-  "tag": "v9.49.0",
+  "latest": "9.50.0",
+  "tag": "v9.50.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/FactSpeed-Setup-9.49.0.exe",
-    "windows_taille": 137051193,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/FactSpeed-9.49.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/FactSpeed-9.49.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/FactSpeed-Setup-9.50.0.exe",
+    "windows_taille": 137051190,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/FactSpeed-9.50.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/FactSpeed-9.50.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.49.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.50.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité renforcée au niveau du binaire",
+      "titre": "Installateur",
       "items": [
-        "Fusibles Electron activés : le binaire installé est verrouillé —",
-        "Complète la protection existante : installation dans Program Files"
+        "À la fin d'une installation réussie (assistant interactif), le",
+        "Jamais pendant les mises à jour silencieuses : la redirection ne se",
+        "À prévoir côté site : créer la page `/merci` (bienvenue + guide +"
       ]
     }
   ]

@@ -1,22 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.46.0",
-  "tag": "v9.46.0",
+  "latest": "9.47.0",
+  "tag": "v9.47.0",
   "date": "2026-10-14",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.46.0/FactSpeed-Setup-9.46.0.exe",
-    "windows_taille": 137051109,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.46.0/FactSpeed-9.46.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.46.0/FactSpeed-9.46.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/FactSpeed-Setup-9.47.0.exe",
+    "windows_taille": 137051356,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/FactSpeed-9.47.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/FactSpeed-9.47.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.46.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.47.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La fenêtre dédiée Livraisons ne s'ouvrait pas (erreur technique"
+        "La fenêtre dédiée Livraisons s'affichait blanche : les écrans de",
+        "Le module Livraisons est désormais rendu en priorité absolue dans sa"
       ]
     }
   ]

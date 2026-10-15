@@ -1,15 +1,15 @@
 version: 9.60.0
 files:
-  - url: FactSpeed-9.60.0-x64.zip
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-x64.zip
     sha512: YgrJb7eh8DJvtd66aKvL+I92yIvtZP5wn8J5lMRFbFj6KrVkAWKC35s85L7YD44GmIqFmoYtAz2hjrrRHX8D1w==
     size: 163881127
-  - url: FactSpeed-9.60.0-arm64.zip
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-arm64.zip
     sha512: AO34MSCD/oRH6r9OulC3SxfIBC+4sJxSodJ6cy0F6rRBqm/a68oYW+j5oTzfCW5zzmE1gKYxrWiVjYWOZa0yQg==
     size: 157127064
-  - url: FactSpeed-9.60.0-x64.dmg
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-x64.dmg
     sha512: Zce4peQwNNFoorVUmYDpV3hYRmsu5KQ6rgffQpQlsogiQcD8mvkojQX6vhle0kVYaHIa6ltu0tnCh2Qz1y8xew==
     size: 154309024
-  - url: FactSpeed-9.60.0-arm64.dmg
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-arm64.dmg
     sha512: Bva0zJLnzSkLqcLp7sObTfpsIZpFJIhx7mMCzoIX4KXYU+I4UTXXzLxze7pzD0EkJzmSKdTm2MbitHR96z9U5A==
     size: 148564956
 path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-x64.zip

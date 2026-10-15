@@ -1,6 +1,6 @@
 version: 9.60.0
 files:
-  - url: FactSpeed-Setup-9.60.0.exe
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-Setup-9.60.0.exe
     sha512: k13nVhcs5nXlKBNr60aza/6Izqos/P/s/5jyGEsbE/wG/5YcLegi9koZyTTQ9D5rsNv8WtRneSd8uR+ImF8ibQ==
     size: 137053837
 path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-Setup-9.60.0.exe

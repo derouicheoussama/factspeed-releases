@@ -1,22 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.56.0",
-  "tag": "v9.56.0",
+  "latest": "9.57.0",
+  "tag": "v9.57.0",
   "date": "2026-10-15",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.56.0/FactSpeed-Setup-9.56.0.exe",
-    "windows_taille": 137052571,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.56.0/FactSpeed-9.56.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.56.0/FactSpeed-9.56.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.57.0/FactSpeed-Setup-9.57.0.exe",
+    "windows_taille": 137052704,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.57.0/FactSpeed-9.57.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.57.0/FactSpeed-9.57.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.56.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.57.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Optimisé",
+      "titre": "Corrigé",
       "items": [
-        "L'installateur passe en compression LZMA maximale : téléchargement"
+        "« Installer » pouvait échouer avec « No update filepath provided »",
+        "Résultat : détection ✓ téléchargement ✓ installation ✓ — la chaîne"
       ]
     }
   ]

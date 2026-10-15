@@ -1,17 +1,17 @@
-version: 9.51.0
+version: 9.53.0
 files:
-  - url: FactSpeed-9.51.0-x64.zip
-    sha512: OZf7LKfocCymD/LOChWrFPvWQq+VoIMmP1jQOGsZYI+RH0GAPlGIWPq34N4Ygf5KlF1y+2tisyupIvL8t9CRMw==
-    size: 164385837
-  - url: FactSpeed-9.51.0-arm64.zip
-    sha512: h2WekqOS1CKtPhbKI/TfCV2IxfB9YFyTcrU9XdyQqtc/l4HV7JakGqgTpJoJQv5zEObUs85pvSyftP0EsZGYcw==
-    size: 157631439
-  - url: FactSpeed-9.51.0-x64.dmg
-    sha512: QFYbSYyuvxn5eUFiPru7HgRb9pSh3c73MHfMPTDlj4Uk9SGPZUrONiufUHv/PNXFSo5rg9gMF2IpGdT/BIPp7g==
-    size: 170622851
-  - url: FactSpeed-9.51.0-arm64.dmg
-    sha512: gqrGrbeDqF87MAgyZyJmeKaaei7bi30lmg2SscDnFo25XezBQQdTImWdjjN+q/KryHe/fiDdjf7oJeVi5oL/XA==
-    size: 163850281
-path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.51.0/FactSpeed-9.51.0-x64.zip
-sha512: OZf7LKfocCymD/LOChWrFPvWQq+VoIMmP1jQOGsZYI+RH0GAPlGIWPq34N4Ygf5KlF1y+2tisyupIvL8t9CRMw==
-releaseDate: '2026-10-14T21:59:47.718Z'
+  - url: FactSpeed-9.53.0-x64.zip
+    sha512: iN+fiQJmcIrW3PijpqRht9YnuC0p+nv6U72DdsGBMMjgReyjDFvpW277JElrgTJLBkjgaIlx5iTD5yVyhwRyZQ==
+    size: 164386254
+  - url: FactSpeed-9.53.0-arm64.zip
+    sha512: zA2F4zB6Txh9jrM9OMbNTjeoiMFZqmRBEKUH2pjQR/4SXyTxML2285+mMHwxRItueqtYgoGGu8dTkCGCtavKSw==
+    size: 157631845
+  - url: FactSpeed-9.53.0-x64.dmg
+    sha512: jpMPrY1P2feI7e5UliaypDQgNkTfXK4FByh5xRryb93tNXmBjtrfEGHAwPfPg+abbMwnWT18rEq1kuesZ7V0zg==
+    size: 170624129
+  - url: FactSpeed-9.53.0-arm64.dmg
+    sha512: p7Gp5RRPQOHgVDotOu/lx3fHRXgUS17DYWNKPvDmU3qa20ZCJhRTcw0iS51M3fefFRFJ79fiYz/FqU/lCXUPNA==
+    size: 163851139
+path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.53.0/FactSpeed-9.53.0-x64.zip
+sha512: iN+fiQJmcIrW3PijpqRht9YnuC0p+nv6U72DdsGBMMjgReyjDFvpW277JElrgTJLBkjgaIlx5iTD5yVyhwRyZQ==
+releaseDate: '2026-10-15T00:34:54.630Z'

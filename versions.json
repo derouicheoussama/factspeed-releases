@@ -1,23 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.62.1",
-  "tag": "v9.62.1",
-  "date": "2026-10-15",
+  "latest": "9.62.2",
+  "tag": "v9.62.2",
+  "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.1/FactSpeed-Setup-9.62.1.exe",
-    "windows_taille": 137055583,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.1/FactSpeed-9.62.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.1/FactSpeed-9.62.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.2/FactSpeed-Setup-9.62.2.exe",
+    "windows_taille": 137055944,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.2/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La notification de mise à jour ne s'affiche plus en boucle : elle",
-        "Installation directe, sans assistant : la mise à jour s'installe en"
+        "« Installation… » bloqué : dans un cas précis, l'installation",
+        "Ordre d'installation fiabilisé : le cache vérifié par empreinte est",
+        "Le bouton rend la main au bout de 25 secondes quoi qu'il arrive — il est"
       ]
     }
   ]

@@ -1,30 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.58.0",
-  "tag": "v9.58.0",
+  "latest": "9.59.0",
+  "tag": "v9.59.0",
   "date": "2026-10-15",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.58.0/FactSpeed-Setup-9.58.0.exe",
-    "windows_taille": 137053694,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.58.0/FactSpeed-9.58.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.58.0/FactSpeed-9.58.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.59.0/FactSpeed-Setup-9.59.0.exe",
+    "windows_taille": 137054117,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.59.0/FactSpeed-9.59.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.59.0/FactSpeed-9.59.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.58.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.59.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Gestion RH  un seul classeur tout le dossier",
+      "titre": "Bienvenue après activation  écran enrichi",
       "items": [
-        "Nouveau bouton « 📚 Dossier RH complet (Excel) » dans Gestion RH :",
-        "Mise en page professionnelle : titres fusionnés, en-têtes bleu",
-        "C'est en plus des exports existants (Congés, Paie, CNAS, DAS,"
+        "4 cartes de confirmation : société, activité, formule et durée de",
+        "Le nom affiché est le vrai : le nom du titulaire vient du serveur",
+        "Encart support : hi@factspeed.com · WhatsApp 0770 600 957 visibles"
       ]
     },
     {
-      "titre": "Moteur Excel",
+      "titre": "Corrigé  détection armée dès le départ",
       "items": [
-        "Le moteur de génération supporte désormais les classeurs"
+        "Le garde-fou anti-blocage du téléchargement est maintenant armé dès"
       ]
     }
   ]

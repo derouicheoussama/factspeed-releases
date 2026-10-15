@@ -1,24 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.53.0",
-  "tag": "v9.53.0",
+  "latest": "9.54.0",
+  "tag": "v9.54.0",
   "date": "2026-10-15",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.53.0/FactSpeed-Setup-9.53.0.exe",
-    "windows_taille": 137052708,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.53.0/FactSpeed-9.53.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.53.0/FactSpeed-9.53.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.54.0/FactSpeed-Setup-9.54.0.exe",
+    "windows_taille": 137052135,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.54.0/FactSpeed-9.54.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.54.0/FactSpeed-9.54.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.53.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.54.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Amélioré",
+      "titre": "Corrigé  le CLUF affichait du charabia",
       "items": [
-        "Délai d'attente réduit à 30 secondes : un serveur muet est déclaré",
-        "Le bouton « Rechercher les mises à jour » re-sonde toujours le flux",
-        "Recherche manuelle = la même voie fiable que la vérification"
+        "Cause trouvée : le fichier de licence était encodé en UTF-8 sans",
+        "Corrigé : le fichier est maintenant en UTF-8 avec BOM — la page"
+      ]
+    },
+    {
+      "titre": "Contenu du contrat corrigé",
+      "items": [
+        "Durée d'essai réelle : le contrat annonçait 15 jours alors que le",
+        "Contacts à jour : hi@factspeed.com ajouté aux coordonnées de"
       ]
     }
   ]

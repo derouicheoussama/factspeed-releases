@@ -1,23 +1,32 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.60.0",
-  "tag": "v9.60.0",
+  "latest": "9.61.0",
+  "tag": "v9.61.0",
   "date": "2026-10-15",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-Setup-9.60.0.exe",
-    "windows_taille": 137053837,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/FactSpeed-9.60.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.61.0/FactSpeed-Setup-9.61.0.exe",
+    "windows_taille": 137054872,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.60.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.61.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Téléchargement accéléré",
+      "items": [
+        "6 segments en parallèle : l'installateur est téléchargé en 6 morceaux",
+        "Vitesse et temps restant affichés : la notification montre désormais",
+        "Répété sans retélécharger : si le téléchargement était déjà terminé",
+        "Sécurité inchangée : l'empreinte sha512 du serveur officiel est"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Le bouton « Installer » fonctionne maintenant dans tous les cas :",
-        "Si l'installateur est déjà présent dans le cache (téléchargé lors d'une"
+        "La barre de progression de la notification reste bloquée à 0 % :",
+        "Le flux public de mise à jour servait un lien incomplet (depuis la"
       ]
     }
   ]

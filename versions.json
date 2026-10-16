@@ -1,26 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.68.0",
-  "tag": "v9.68.0",
+  "latest": "9.69.0",
+  "tag": "v9.69.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-Setup-9.68.0.exe",
-    "windows_taille": 137067057,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.0/FactSpeed-Setup-9.69.0.exe",
+    "windows_taille": 137067033,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Stabilité sur les machines au pilote graphique défaillant",
+      "titre": "Corrigé  fiabilité des migrations",
       "items": [
-        "Écran blanc, scintillement, plantage graphique ? Un nouveau bouton",
-        "Détection automatique : 3 crashs du processus graphique en 10 minutes",
-        "Nouvel écran de diagnostic (Paramètres → Système → Affichage &",
-        "Étude technique complète : docs/GPU-SWIFTSHADER-ETUDE.md",
-        "Impression, PDF, tableaux de bord et mises à jour ne sont pas affectés"
+        "La sauvegarde automatique avant migration est restaurée pour toutes"
+      ]
+    },
+    {
+      "titre": "Audit technique du code publié",
+      "items": [
+        "`docs/AUDIT-TECHNIQUE-2026-10-16.md` : 243 canaux internes audités"
       ]
     }
   ]

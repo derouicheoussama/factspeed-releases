@@ -1,39 +1,32 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.70.0",
-  "tag": "v9.70.0",
+  "latest": "9.71.0",
+  "tag": "v9.71.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.70.0/FactSpeed-Setup-9.70.0.exe",
-    "windows_taille": 135023318,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.0/FactSpeed-Setup-9.71.0.exe",
+    "windows_taille": 135025133,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.70.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité",
+      "titre": "Barèmes fiscaux mise à jour automatique (LF sans publier)",
       "items": [
-        "Serveur de mise à jour verrouillé en production : les variables",
-        "Rendu des documents conformes : la licence en ligne passe par la"
+        "Le droit de timbre se met à jour tout seul : chaque nouvelle loi de",
+        "Sécurité maximale : fichier validé ligne par ligne (montants,",
+        "La personnalisation manuelle du barème reste prioritaire si vous l'avez"
       ]
     },
     {
-      "titre": "Conformité légale (textes corrigés)",
+      "titre": "Sauvegardes plus sûres",
       "items": [
-        "CLUF : faute corrigée (« a pour objet »), nom de l'éditeur en arabe",
-        "LISEZ-MOI honnête : ~500 Mo d'espace disque (au lieu de 300),",
-        "THIRD-PARTY.txt complet et automatique : 467 paquets réels listés",
-        "Aide hors ligne : résumé local de la politique de confidentialité"
-      ]
-    },
-    {
-      "titre": "Allègement de l'installateur",
-      "items": [
-        "better-sqlite3 : sources C++ et dépendances de compilation exclues",
-        "Polices Cairo dédupliquées : 12 fichiers → 3 (identiques 4 fois),"
+        "Alerte cloche 🔔 si aucune sauvegarde externe (clé USB, disque)",
+        "🧪 Tester la restauration : bouton dans Paramètres → Sauvegardes qui",
+        "La date de la dernière sauvegarde externe est mémorisée et affichée"
       ]
     }
   ]

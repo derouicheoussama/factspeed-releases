@@ -1,24 +1,32 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.62.3",
-  "tag": "v9.62.3",
+  "latest": "9.63.0",
+  "tag": "v9.63.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.3/FactSpeed-Setup-9.62.3.exe",
-    "windows_taille": 137056150,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.3/FactSpeed-9.62.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.3/FactSpeed-9.62.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.63.0/FactSpeed-Setup-9.63.0.exe",
+    "windows_taille": 137057506,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.62.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.63.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveautés RH",
       "items": [
-        "Plus aucun cul-de-sac : si l'installateur en cache a disparu",
-        "L'ancien téléchargement en attente est purgé : quand une nouvelle",
-        "Un seul build par version : le workflow de publication annule"
+        "Échéances & rappels : le tableau de bord RH affiche désormais les",
+        "Dans la cloche 🔔 aussi : un contrat qui expire dans 15 jours ou une",
+        "📦 Tous les bulletins en 1 clic : dans Paie, le bouton « Tous les",
+        "📅 Absents ce mois-ci : l'onglet Congés affiche d'un coup d'œil qui",
+        "Fin de contrat sur la fiche : le champ se renseigne dans"
+      ]
+    },
+    {
+      "titre": "Amélioré",
+      "items": [
+        "Le dossier du personnel et les exports tiennent compte de la nouvelle"
       ]
     }
   ]

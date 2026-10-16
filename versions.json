@@ -1,32 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.71.0",
-  "tag": "v9.71.0",
+  "latest": "9.71.1",
+  "tag": "v9.71.1",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.0/FactSpeed-Setup-9.71.0.exe",
-    "windows_taille": 135025133,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.0/FactSpeed-9.71.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.0/FactSpeed-9.71.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.1/FactSpeed-Setup-9.71.1.exe",
+    "windows_taille": 135024941,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.71.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Barèmes fiscaux mise à jour automatique (LF sans publier)",
+      "titre": "Corrigé  cause racine des installations qui n'aboutissent pas",
       "items": [
-        "Le droit de timbre se met à jour tout seul : chaque nouvelle loi de",
-        "Sécurité maximale : fichier validé ligne par ligne (montants,",
-        "La personnalisation manuelle du barème reste prioritaire si vous l'avez"
-      ]
-    },
-    {
-      "titre": "Sauvegardes plus sûres",
-      "items": [
-        "Alerte cloche 🔔 si aucune sauvegarde externe (clé USB, disque)",
-        "🧪 Tester la restauration : bouton dans Paramètres → Sauvegardes qui",
-        "La date de la dernière sauvegarde externe est mémorisée et affichée"
+        "Le démarrage de l'installateur ne déclenchait pas l'invite",
+        "Machine de test : la chaîne complète (détection → téléchargement →"
       ]
     }
   ]

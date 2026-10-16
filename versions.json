@@ -1,37 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.66.0",
-  "tag": "v9.66.0",
+  "latest": "9.67.0",
+  "tag": "v9.67.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.66.0/FactSpeed-Setup-9.66.0.exe",
-    "windows_taille": 137064865,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.66.0/FactSpeed-9.66.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.66.0/FactSpeed-9.66.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-Setup-9.67.0.exe",
+    "windows_taille": 137065655,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.66.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Catalogue enrichi",
+      "titre": "Statut de licence en temps réel",
       "items": [
-        "Fiche formation professionnelle complète : catégorie et sous-catégorie",
-        "Filtre par catégorie dans le catalogue"
+        "Encart d'état repensé : badge clair (ACTIVE / PERPÉTUELLE / EXPIRÉE /",
+        "Statut toujours juste : rafraîchi automatiquement à chaque changement",
+        "Code machine toujours visible avec bouton Copier — indispensable",
+        "L'heure du dernier contrôle est affichée discrètement"
       ]
     },
     {
-      "titre": "Groupes de formation",
+      "titre": "Activation assistée",
       "items": [
-        "Un cours = plusieurs groupes indépendants (Groupe A du matin,",
-        "Capacité contrôlée : le groupe affiche inscrits/places et le",
-        "Les inscriptions affichent leur groupe (référence + formateur)"
-      ]
-    },
-    {
-      "titre": "Inscriptions sécurisées",
-      "items": [
-        "Anti-doublon : impossible d'inscrire deux fois le même élève à la"
+        "Validation du format avant l'envoi : une clé ne commençant pas par",
+        "Bouton 📋 Coller depuis le presse-papiers",
+        "Bouton 📂 Ouvrir le journal technique (le fichier app.log s'ouvre"
       ]
     }
   ]

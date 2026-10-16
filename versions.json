@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.72.0",
-  "tag": "v9.72.0",
+  "latest": "9.72.1",
+  "tag": "v9.72.1",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.72.0/FactSpeed-Setup-9.72.0.exe",
-    "windows_taille": 135024737,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.72.0/FactSpeed-9.72.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.72.0/FactSpeed-9.72.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.72.1/FactSpeed-Setup-9.72.1.exe",
+    "windows_taille": 135024301,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.72.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.72.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Architecture (qualité de structure zéro changement de comportement)",
+      "titre": "Corrigé  P0",
       "items": [
-        "Helpers consolidés : `today`, `esc` (échappement HTML) et le",
-        "Garde de sécurité automatisée : un nouveau test vérifie en"
+        "L'application installée ne démarrait plus (erreur JavaScript au"
       ]
     }
   ]

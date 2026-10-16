@@ -1,24 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.75.1",
-  "tag": "v9.75.1",
+  "latest": "9.75.2",
+  "tag": "v9.75.2",
   "date": "2026-10-17",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.1/FactSpeed-Setup-9.75.1.exe",
-    "windows_taille": 135028992,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.1/FactSpeed-9.75.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.1/FactSpeed-9.75.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.2/FactSpeed-Setup-9.75.2.exe",
+    "windows_taille": 135029305,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé  retour d'utilisation du dock 9.75.0",
+      "titre": "Ajouté",
       "items": [
-        "Une seule ligne : les 14 sections tiennent désormais sur une rangée",
-        "Fini les icônes sombres sur fond sombre : chaque icône est posée",
-        "Contenu élargi et centré : la page passe à 1 560 px de large et"
+        "Icônes vectorielles dans le dock des Paramètres : les emojis sont",
+        "10 nouveaux tracés rejoignent la bibliothèque d'icônes (entreprise,"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "Repli emoji conservé si un tracé manque ; les icônes héritent de la"
       ]
     }
   ]

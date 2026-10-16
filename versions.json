@@ -1,36 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.74.0",
-  "tag": "v9.74.0",
+  "latest": "9.75.0",
+  "tag": "v9.75.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.74.0/FactSpeed-Setup-9.74.0.exe",
-    "windows_taille": 135028973,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.74.0/FactSpeed-9.74.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.74.0/FactSpeed-9.74.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.0/FactSpeed-Setup-9.75.0.exe",
+    "windows_taille": 135029419,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.74.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Facturation — éditeur des taux de TVA : la liste des taux proposés",
-        "Sauvegardes — actions sur chaque copie locale : restaurez une",
-        "Entreprise — wilaya et commune : liste officielle des 58 wilayas"
+        "Menu des Paramètres repensé en dock horizontal (haut de page) :",
+        "Recherche intégrée au dock : le champ « Rechercher un réglage… »"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "Le bouton « Enregistrer » de la carte Numérotation était vide — la"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "Structure : les trois onglets sortent du fichier Paramètres"
+        "Le contenu centré profite de la largeur libérée par la suppression du"
       ]
     }
   ]

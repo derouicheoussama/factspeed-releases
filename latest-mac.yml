@@ -1,17 +1,17 @@
-version: 9.67.0
+version: 9.68.0
 files:
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-x64.zip
-    sha512: 7ilD7g3EhAkeESPRvxSiL3XmWf11nZKZ+W0ATAUGskX1tMrxfMXpOgMaj3C47V3JzV95uQUuUCzXqwUKvkRIOg==
-    size: 163900972
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-arm64.zip
-    sha512: fT7f0SW0gyiWydnqkmObPaAA3GnbJg5Pq/673BJblwAqd1PLw58zdHvgSCBZtpQJnj0hKQThoY357Ln8u72KDQ==
-    size: 157141003
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-x64.dmg
-    sha512: 9yDKNgjpEGqBehrHQ+TICzYk4s2jo4k8t81mPNkjzC6vkfFntOXK+OhgxmYbzVSPwjr6ldOGRNPiveWv5R+ODQ==
-    size: 154380471
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-arm64.dmg
-    sha512: vOOINARXXqQWwVLhY0QLgUyd4Cz36BfJpkMn+/4v9033db6u95w4wkvKdbOuM9T5jZeTUxdAc8UVvBdiEz+6Og==
-    size: 148631714
-path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-x64.zip
-sha512: 7ilD7g3EhAkeESPRvxSiL3XmWf11nZKZ+W0ATAUGskX1tMrxfMXpOgMaj3C47V3JzV95uQUuUCzXqwUKvkRIOg==
-releaseDate: '2026-10-16T05:01:26.562Z'
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-x64.zip
+    sha512: jpWVM1wdqAiJLvf46PgWs1bZjZjL3JJsJZrQN50RTns3mlwWAinMF+9Ctf6sllIiyLB9loUvZ3kvDL9RWc9HVw==
+    size: 163903446
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-arm64.zip
+    sha512: 5y0Umvjbo5MSWDYIG81Ork0y4IHn+zm5nwplJwLTHpobf3Bxt4Jtt6161NcJ9Hc6Rnq2EY5CcA74qjt5XdtgUg==
+    size: 157143475
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-x64.dmg
+    sha512: MYqfOM5eLe3GM2q3xRvgf7D0a4TNPfDN5ZvPmPvBiI32hUnZaTVtaUZg1dVIT2HJrYf3/C8FQj9AdgnFbZr0QQ==
+    size: 154385843
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-arm64.dmg
+    sha512: MsX5oRBkJZZ9KjJ7csYCYVqNFeDdf/Idm7DvIByA8jtqwT2MGwA1S06c6yxKKkJXiZsORf/C/KgA3WDBdj7+/g==
+    size: 148641148
+path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-9.68.0-x64.zip
+sha512: jpWVM1wdqAiJLvf46PgWs1bZjZjL3JJsJZrQN50RTns3mlwWAinMF+9Ctf6sllIiyLB9loUvZ3kvDL9RWc9HVw==
+releaseDate: '2026-10-16T05:25:46.275Z'

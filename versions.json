@@ -1,29 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.75.0",
-  "tag": "v9.75.0",
-  "date": "2026-10-16",
+  "latest": "9.75.1",
+  "tag": "v9.75.1",
+  "date": "2026-10-17",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.0/FactSpeed-Setup-9.75.0.exe",
-    "windows_taille": 135029419,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.0/FactSpeed-9.75.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.0/FactSpeed-9.75.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.1/FactSpeed-Setup-9.75.1.exe",
+    "windows_taille": 135028992,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé  retour d'utilisation du dock 9.75.0",
       "items": [
-        "Menu des Paramètres repensé en dock horizontal (haut de page) :",
-        "Recherche intégrée au dock : le champ « Rechercher un réglage… »"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Le contenu centré profite de la largeur libérée par la suppression du"
+        "Une seule ligne : les 14 sections tiennent désormais sur une rangée",
+        "Fini les icônes sombres sur fond sombre : chaque icône est posée",
+        "Contenu élargi et centré : la page passe à 1 560 px de large et"
       ]
     }
   ]

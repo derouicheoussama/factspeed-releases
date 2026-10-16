@@ -1,33 +1,26 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.67.0",
-  "tag": "v9.67.0",
+  "latest": "9.68.0",
+  "tag": "v9.68.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-Setup-9.67.0.exe",
-    "windows_taille": 137065655,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/FactSpeed-9.67.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/FactSpeed-Setup-9.68.0.exe",
+    "windows_taille": 137067057,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.67.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.68.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Statut de licence en temps réel",
+      "titre": "Stabilité sur les machines au pilote graphique défaillant",
       "items": [
-        "Encart d'état repensé : badge clair (ACTIVE / PERPÉTUELLE / EXPIRÉE /",
-        "Statut toujours juste : rafraîchi automatiquement à chaque changement",
-        "Code machine toujours visible avec bouton Copier — indispensable",
-        "L'heure du dernier contrôle est affichée discrètement"
-      ]
-    },
-    {
-      "titre": "Activation assistée",
-      "items": [
-        "Validation du format avant l'envoi : une clé ne commençant pas par",
-        "Bouton 📋 Coller depuis le presse-papiers",
-        "Bouton 📂 Ouvrir le journal technique (le fichier app.log s'ouvre"
+        "Écran blanc, scintillement, plantage graphique ? Un nouveau bouton",
+        "Détection automatique : 3 crashs du processus graphique en 10 minutes",
+        "Nouvel écran de diagnostic (Paramètres → Système → Affichage &",
+        "Étude technique complète : docs/GPU-SWIFTSHADER-ETUDE.md",
+        "Impression, PDF, tableaux de bord et mises à jour ne sont pas affectés"
       ]
     }
   ]

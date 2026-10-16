@@ -1,23 +1,39 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.69.1",
-  "tag": "v9.69.1",
+  "latest": "9.70.0",
+  "tag": "v9.70.0",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.1/FactSpeed-Setup-9.69.1.exe",
-    "windows_taille": 137067078,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.1/FactSpeed-9.69.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.1/FactSpeed-9.69.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.70.0/FactSpeed-Setup-9.70.0.exe",
+    "windows_taille": 135023318,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.70.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Sécurité",
       "items": [
-        "Icône blanche ou générique sur le Bureau après une mise à jour :",
-        "Le correctif s'applique aux installations et mises à jour à partir de"
+        "Serveur de mise à jour verrouillé en production : les variables",
+        "Rendu des documents conformes : la licence en ligne passe par la"
+      ]
+    },
+    {
+      "titre": "Conformité légale (textes corrigés)",
+      "items": [
+        "CLUF : faute corrigée (« a pour objet »), nom de l'éditeur en arabe",
+        "LISEZ-MOI honnête : ~500 Mo d'espace disque (au lieu de 300),",
+        "THIRD-PARTY.txt complet et automatique : 467 paquets réels listés",
+        "Aide hors ligne : résumé local de la politique de confidentialité"
+      ]
+    },
+    {
+      "titre": "Allègement de l'installateur",
+      "items": [
+        "better-sqlite3 : sources C++ et dépendances de compilation exclues",
+        "Polices Cairo dédupliquées : 12 fichiers → 3 (identiques 4 fois),"
       ]
     }
   ]

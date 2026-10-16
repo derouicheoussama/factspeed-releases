@@ -1,28 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.69.0",
-  "tag": "v9.69.0",
+  "latest": "9.69.1",
+  "tag": "v9.69.1",
   "date": "2026-10-16",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.0/FactSpeed-Setup-9.69.0.exe",
-    "windows_taille": 137067033,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.0/FactSpeed-9.69.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.0/FactSpeed-9.69.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.1/FactSpeed-Setup-9.69.1.exe",
+    "windows_taille": 137067078,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.69.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé  fiabilité des migrations",
+      "titre": "Corrigé",
       "items": [
-        "La sauvegarde automatique avant migration est restaurée pour toutes"
-      ]
-    },
-    {
-      "titre": "Audit technique du code publié",
-      "items": [
-        "`docs/AUDIT-TECHNIQUE-2026-10-16.md` : 243 canaux internes audités"
+        "Icône blanche ou générique sur le Bureau après une mise à jour :",
+        "Le correctif s'applique aux installations et mises à jour à partir de"
       ]
     }
   ]

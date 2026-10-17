@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.75.2",
-  "tag": "v9.75.2",
+  "latest": "9.75.3",
+  "tag": "v9.75.3",
   "date": "2026-10-17",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.2/FactSpeed-Setup-9.75.2.exe",
-    "windows_taille": 135029305,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.2/FactSpeed-9.75.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.2/FactSpeed-9.75.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.3/FactSpeed-Setup-9.75.3.exe",
+    "windows_taille": 135027422,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé  consolidation de la marque",
       "items": [
-        "Icônes vectorielles dans le dock des Paramètres : les emojis sont",
-        "10 nouveaux tracés rejoignent la bibliothèque d'icônes (entreprise,"
+        "À propos : les boutons de réseaux sociaux et les liens personnels",
+        "Tous les liens web du logiciel pointent désormais vers"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Repli emoji conservé si un tracé manque ; les icônes héritent de la"
+        "Les canaux fonctionnels restent intacts : support WhatsApp pour"
       ]
     }
   ]

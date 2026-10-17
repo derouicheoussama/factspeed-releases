@@ -1,0 +1,21 @@
+{
+  "lf": "2025",
+  "timbre": {
+    "exemptBelow": 300,
+    "min": 5,
+    "brackets": [
+      {
+        "upTo": 30000,
+        "daPer100": 1
+      },
+      {
+        "upTo": 100000,
+        "daPer100": 1.5
+      },
+      {
+        "upTo": null,
+        "daPer100": 2
+      }
+    ]
+  }
+}

@@ -1,29 +1,38 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.75.3",
-  "tag": "v9.75.3",
+  "latest": "9.76.0",
+  "tag": "v9.76.0",
   "date": "2026-10-17",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.3/FactSpeed-Setup-9.75.3.exe",
-    "windows_taille": 135027422,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.3/FactSpeed-9.75.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.3/FactSpeed-9.75.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.76.0/FactSpeed-Setup-9.76.0.exe",
+    "windows_taille": 135028749,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.75.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.76.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé  consolidation de la marque",
+      "titre": "Ajouté",
       "items": [
-        "À propos : les boutons de réseaux sociaux et les liens personnels",
-        "Tous les liens web du logiciel pointent désormais vers"
+        "Envoyer un document par WhatsApp : nouveau bouton 📲 sur les",
+        "Barèmes fiscaux distants activés : le fichier officiel des barèmes",
+        "Banc de charge permanent : 5 000 clients + 10 000 factures"
+      ]
+    },
+    {
+      "titre": "Corrigé  P0",
+      "items": [
+        "Le bouton WhatsApp de l'écran « Essai terminé » ne faisait rien :"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Les canaux fonctionnels restent intacts : support WhatsApp pour"
+        "Sceau d'activation renforcé (HMAC-SHA256 avec secret aléatoire par",
+        "Banc E2E complet restauré (30 étapes, assistant → facture →",
+        "Audit de sécurité approfondi exécuté (195 constats catalogués, 0"
       ]
     }
   ]

@@ -1,34 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.77.0",
-  "tag": "v9.77.0",
-  "date": "2026-10-17",
+  "latest": "9.78.0",
+  "tag": "v9.78.0",
+  "date": "2026-10-18",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.77.0/FactSpeed-Setup-9.77.0.exe",
-    "windows_taille": 135032953,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.77.0/FactSpeed-9.77.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.77.0/FactSpeed-9.77.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
+    "windows_taille": null,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.77.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.78.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Double authentification à l'ouverture du logiciel : après le mot de",
-        "Par email — code envoyé sur l'adresse du compte (serveur SMTP",
-        "Par SMS — via Twilio (configuration administrateur : identifiant,",
-        "Par application authentifiante — Duo Mobile, Google",
-        "Écran de connexion dédié : « Comment souhaitez-vous recevoir votre"
+        "Couche de design tokens (inspiration Fluent/SaaS) : échelles",
+        "Menu contextuel (clic droit) sur les documents : Ouvrir, Aperçu,",
+        "Anglais progressif : troisième langue dans les préférences — les",
+        "Nouveaux composants réutilisables : `Spinner`, `ErrorState` (avec",
+        "Feuille de route design system documentée (`docs/DESIGN-SYSTEM.md`)"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Sécurité : code aléatoire cryptographique, stocké uniquement haché,",
-        "Filet pré-migration aligné sur la dernière version (un écart de",
-        "12 nouveaux tests (TOTP + anti-falsification), 165 au total"
+        "Mode sombre : tokens de surfaces et de sécurité remappés (panneaux,",
+        "Aucune rupture : variables historiques conservées en alias, aucune"
       ]
     }
   ]

@@ -1,22 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.82.6",
-  "tag": "v9.82.6",
+  "latest": "9.82.7",
+  "tag": "v9.82.7",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.6/FactSpeed-Setup-9.82.6.exe",
-    "windows_taille": 143488095,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.6/FactSpeed-9.82.6-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.6/FactSpeed-9.82.6-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.7/FactSpeed-Setup-9.82.7.exe",
+    "windows_taille": 143487940,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.6/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.7/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "La carte « Licence & activation » passe en deux colonnes pour gagner"
+        "Carte Mises à jour en deux colonnes : à gauche le statut (à jour /"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Carte Packs compactée : le code promo est intégré à la barre de titre"
       ]
     }
   ]

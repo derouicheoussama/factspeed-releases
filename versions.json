@@ -1,33 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.78.0",
-  "tag": "v9.78.0",
+  "latest": "9.79.0",
+  "tag": "v9.79.0",
   "date": "2026-10-18",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.78.0/FactSpeed-Setup-9.78.0.exe",
-    "windows_taille": 135035263,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
+    "windows_taille": null,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.78.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.79.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Couche de design tokens (inspiration Fluent/SaaS) : échelles",
-        "Menu contextuel (clic droit) sur les documents : Ouvrir, Aperçu,",
-        "Anglais progressif : troisième langue dans les préférences — les",
-        "Nouveaux composants réutilisables : `Spinner`, `ErrorState` (avec",
-        "Feuille de route design system documentée (`docs/DESIGN-SYSTEM.md`)"
+        "Cartes indicateurs repensées (style SaaS premium) : les 6 cartes du",
+        "Huit déclinaisons de dégradé disponibles pour les futurs tableaux de"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Arrondi général adouci : cartes 12 px, boutons 10 px — le rendu"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Mode sombre : tokens de surfaces et de sécurité remappés (panneaux,",
-        "Aucune rupture : variables historiques conservées en alias, aucune"
+        "Mode sombre : chaque dégradé possède sa version profonde (bleu nuit,",
+        "Dock du bas, navigation et structure : intouchés (comme demandé)"
       ]
     }
   ]

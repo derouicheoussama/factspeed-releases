@@ -1,30 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.82.4",
-  "tag": "v9.82.4",
+  "latest": "9.82.5",
+  "tag": "v9.82.5",
   "date": "2026-10-18",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.4/FactSpeed-Setup-9.82.4.exe",
-    "windows_taille": 143488083,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.4/FactSpeed-9.82.4-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.4/FactSpeed-9.82.4-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.5/FactSpeed-Setup-9.82.5.exe",
+    "windows_taille": 143488047,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.5/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "HTTP 422 « Le champ type est obligatoire » (Ecotrack / Anderson) : le",
-        "Champ Stop desk dupliqué dans le formulaire : un seul champ désormais",
-        "Les erreurs de validation du transporteur (422) listent tous les"
-      ]
-    },
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Alertes sous chaque champ du formulaire d'envoi : les champs refusés"
+        "La fenêtre dédiée Livraisons s'ouvrait entièrement blanche : elle",
+        "Si l'API venait encore à manquer, la fenêtre affiche désormais un"
       ]
     }
   ]

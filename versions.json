@@ -1,38 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.82.0",
-  "tag": "v9.82.0",
+  "latest": "9.82.1",
+  "tag": "v9.82.1",
   "date": "2026-10-18",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.0/FactSpeed-Setup-9.82.0.exe",
-    "windows_taille": 143488419,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.0/FactSpeed-9.82.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.0/FactSpeed-9.82.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.1/FactSpeed-Setup-9.82.1.exe",
+    "windows_taille": 143488114,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.1/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Commande WhatsApp avec code promo : le code était transmis sans email —",
-        "Montants de paiement : le code promo validé s'applique maintenant au",
-        "Consommation des codes : un code promo est consommé une seule fois à"
-      ]
-    },
     {
       "titre": "Ajouté",
       "items": [
-        "Passage du code promo au serveur de paiement carte (appliqué côté serveur"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "Suppression complète des promos locales : les codes sont gérés dans le",
-        "10 tests automatiques verrouillent le comportement (les 12 cas de la",
-        "Sécurité : le code de récupération FX- est généré cryptographiquement"
+        "Fenêtre dédiée au clic sur « Licence » (barre supérieure) : modale"
       ]
     }
   ]

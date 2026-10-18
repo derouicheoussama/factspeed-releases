@@ -1,23 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.79.1",
-  "tag": "v9.79.1",
+  "latest": "9.80.0",
+  "tag": "v9.80.0",
   "date": "2026-10-18",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.79.1/FactSpeed-Setup-9.79.1.exe",
-    "windows_taille": 135035596,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.79.1/FactSpeed-9.79.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.79.1/FactSpeed-9.79.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.80.0/FactSpeed-Setup-9.80.0.exe",
+    "windows_taille": 135035636,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.79.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.80.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Filtres repensés en pills (style des maquettes) : les onglets de",
-        "Champs de formulaires et listes arrondis à 10 px pour suivre le"
+        "Prêt pour le Microsoft Store : nouveau mode de build dédié — dans la",
+        "Script d'empaquetage MSIX : pipeline complet et réutilisable —",
+        "Étude de compatibilité documentée (`docs/MSIX-ETUDE.md`) : les"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "Aucun changement pour les installations classiques : le canal"
       ]
     }
   ]

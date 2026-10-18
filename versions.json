@@ -1,22 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.82.1",
-  "tag": "v9.82.1",
+  "latest": "9.82.2",
+  "tag": "v9.82.2",
   "date": "2026-10-18",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.1/FactSpeed-Setup-9.82.1.exe",
-    "windows_taille": 143488114,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.1/FactSpeed-9.82.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.1/FactSpeed-9.82.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.2/FactSpeed-Setup-9.82.2.exe",
+    "windows_taille": 143487770,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Fenêtre dédiée au clic sur « Licence » (barre supérieure) : modale"
+        "Titulaire : la fenêtre Licence affiche désormais le vrai nom du client —"
       ]
     }
   ]

@@ -5,8 +5,8 @@
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
-    "windows_taille": null,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.81.0/FactSpeed-Setup-9.81.0.exe",
+    "windows_taille": 144010790,
     "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.81.0/FactSpeed-9.81.0-arm64.dmg",
     "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.81.0/FactSpeed-9.81.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"

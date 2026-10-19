@@ -1,22 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.88.0",
-  "tag": "v9.88.0",
+  "latest": "9.89.0",
+  "tag": "v9.89.0",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.88.0/FactSpeed-Setup-9.88.0.exe",
-    "windows_taille": 143491981,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.0/FactSpeed-Setup-9.89.0.exe",
+    "windows_taille": 143492566,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.88.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "11ᵉ modèle de document : « Signature (premium) » — style SaaS haut de"
+        "Mode tactile (Paramètres → Apparence → 👆 Écran tactile) : pour PC",
+        "✍️ Ma signature (Paramètres → Documents) : dessinez votre signature à"
       ]
     }
   ]

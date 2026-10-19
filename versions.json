@@ -1,23 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.84.0",
-  "tag": "v9.84.0",
+  "latest": "9.85.0",
+  "tag": "v9.85.0",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.84.0/FactSpeed-Setup-9.84.0.exe",
-    "windows_taille": 143488803,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.84.0/FactSpeed-9.84.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.84.0/FactSpeed-9.84.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.85.0/FactSpeed-Setup-9.85.0.exe",
+    "windows_taille": 143489460,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.84.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.85.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Les alertes de sécurité partent depuis le serveur de l'éditeur",
-        "Repli automatique : si la licence en ligne n'est pas active ou le"
+        "Détection automatique des bureaux (stop desks) : quand vous choisissez",
+        "L'ID officiel du bureau est transmis au transporteur à la création du",
+        "Liste mise en cache 24 h (pas d'appel API à chaque ouverture). Si le"
       ]
     }
   ]

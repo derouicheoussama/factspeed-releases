@@ -1,8 +1,8 @@
-version: 9.87.3
+version: 9.89.0
 files:
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.3/FactSpeed-Setup-9.87.3.exe
-    sha512: FewzMZSbpIvDt4l71tmEV0jycy12jAmi19HETVujwjkm8TIczues/u7PLOv0IKrfVn0JZ74Orl0GrpDjsp6jxQ==
-    size: 143491701
-path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.3/FactSpeed-Setup-9.87.3.exe
-sha512: FewzMZSbpIvDt4l71tmEV0jycy12jAmi19HETVujwjkm8TIczues/u7PLOv0IKrfVn0JZ74Orl0GrpDjsp6jxQ==
-releaseDate: '2026-10-19T11:56:37.711Z'
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.0/FactSpeed-Setup-9.89.0.exe
+    sha512: wR1e/rQkHQtWhJ9tlxWbhvmMPuQnV5KqYiMmebF3Udvi4GAALOEdZ48Heg/cY0Rku7J2k2ckmLrV5SPpCvMqzQ==
+    size: 143492566
+path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.0/FactSpeed-Setup-9.89.0.exe
+sha512: wR1e/rQkHQtWhJ9tlxWbhvmMPuQnV5KqYiMmebF3Udvi4GAALOEdZ48Heg/cY0Rku7J2k2ckmLrV5SPpCvMqzQ==
+releaseDate: '2026-10-19T21:33:25.979Z'

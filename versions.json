@@ -1,28 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.82.7",
-  "tag": "v9.82.7",
+  "latest": "9.82.8",
+  "tag": "v9.82.8",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.7/FactSpeed-Setup-9.82.7.exe",
-    "windows_taille": 143487940,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.7/FactSpeed-9.82.7-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.7/FactSpeed-9.82.7-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.8/FactSpeed-Setup-9.82.8.exe",
+    "windows_taille": 143488247,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.7/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.82.8/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Carte Mises à jour en deux colonnes : à gauche le statut (à jour /"
+        "Changez votre photo en survolant l'avatar : un voile « 📷 Changer »",
+        "Menu photo (bouton 📷 sous l'avatar) : « Changer la photo… » et"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "Carte Packs compactée : le code promo est intégré à la barre de titre"
+        "Le badge « 📸 Photo » d'information (redondant) est retiré de la ligne"
       ]
     }
   ]

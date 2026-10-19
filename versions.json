@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.89.0",
-  "tag": "v9.89.0",
+  "latest": "9.89.1",
+  "tag": "v9.89.1",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.0/FactSpeed-Setup-9.89.0.exe",
-    "windows_taille": 143492566,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.1/FactSpeed-Setup-9.89.1.exe",
+    "windows_taille": 143492796,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Mode tactile (Paramètres → Apparence → 👆 Écran tactile) : pour PC",
-        "✍️ Ma signature (Paramètres → Documents) : dessinez votre signature à"
+        "Le réglage « Taille du texte » (Petit / Normal / Grand) n'avait aucun"
       ]
     }
   ]

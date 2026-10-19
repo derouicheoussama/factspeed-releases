@@ -1,24 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.83.0",
-  "tag": "v9.83.0",
+  "latest": "9.84.0",
+  "tag": "v9.84.0",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.83.0/FactSpeed-Setup-9.83.0.exe",
-    "windows_taille": 143488789,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.83.0/FactSpeed-9.83.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.83.0/FactSpeed-9.83.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.84.0/FactSpeed-Setup-9.84.0.exe",
+    "windows_taille": 143488803,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.83.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.84.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Votre compte vous prévient par email quand quelque chose d'important",
-        "L'alerte part vers l'email du profil (ou du compte) si le serveur",
-        "Le champ Email de « Mon compte » explique désormais que les alertes de"
+        "Les alertes de sécurité partent depuis le serveur de l'éditeur",
+        "Repli automatique : si la licence en ligne n'est pas active ou le"
       ]
     }
   ]

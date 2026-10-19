@@ -1,29 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.87.3",
-  "tag": "v9.87.3",
+  "latest": "9.88.0",
+  "tag": "v9.88.0",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.3/FactSpeed-Setup-9.87.3.exe",
-    "windows_taille": 143491701,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.88.0/FactSpeed-Setup-9.88.0.exe",
+    "windows_taille": 143491981,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.88.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "La fenêtre dédiée Livraisons restait blanche malgré la correction du",
-        "Diagnostic clair à l'écran si quelque chose empêche encore le chargement"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Harmonisation des icônes : le symbole infini vectoriel remplace les"
+        "11ᵉ modèle de document : « Signature (premium) » — style SaaS haut de"
       ]
     }
   ]

@@ -1,29 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.87.1",
-  "tag": "v9.87.1",
+  "latest": "9.87.2",
+  "tag": "v9.87.2",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.1/FactSpeed-Setup-9.87.1.exe",
-    "windows_taille": 143491090,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.2/FactSpeed-Setup-9.87.2.exe",
+    "windows_taille": 143490902,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.2/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Fenêtre Licence enrichie : en-tête avec titulaire en grand, badge",
-        "Bouton « 🌐 Vérifier » dans la fenêtre : synchronisation immédiate"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Symbole infini redessiné : courbe lisse et symétrique (l'ancien"
+        "« window.api.licenseHeartbeatNow is not a function » au clic sur"
       ]
     }
   ]

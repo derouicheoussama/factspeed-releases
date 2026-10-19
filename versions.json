@@ -1,23 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.86.2",
-  "tag": "v9.86.2",
+  "latest": "9.87.0",
+  "tag": "v9.87.0",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.86.2/FactSpeed-Setup-9.86.2.exe",
-    "windows_taille": 143490413,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.86.2/FactSpeed-9.86.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.86.2/FactSpeed-9.86.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.0/FactSpeed-Setup-9.87.0.exe",
+    "windows_taille": 143490436,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.86.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.87.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Symbole infini redessiné : le caractère emoji ♾ (rendu variable selon",
-        "« Perpétuelle » devient « Lifetime » partout : bannière de statut"
+        "Règles de durée strictes (spécification du site) :",
+        "`expires_at` avec une date ISO → la date EXACTE est affichée, aucun",
+        "`expires_at` explicitement null (« lifetime ») → affichage",
+        "`expires_at` ABSENT → JAMAIS interprété comme Lifetime (la dernière",
+        "au heartbeat, un null remplace l'ancienne date (plus de repli"
+      ]
+    },
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Noms de champs doubles dans les requêtes d'activation et de heartbeat",
+        "L'email du titulaire renvoyé par le site est conservé avec la licence"
       ]
     }
   ]

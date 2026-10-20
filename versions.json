@@ -1,28 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.90.10",
-  "tag": "v9.90.10",
+  "latest": "9.90.11",
+  "tag": "v9.90.11",
   "date": "2026-10-20",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.10/FactSpeed-Setup-9.90.10.exe",
-    "windows_taille": 143496548,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.11/FactSpeed-Setup-9.90.11.exe",
+    "windows_taille": 143496569,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.10/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.11/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Bouton « 💬 Commander par WhatsApp à la place » dans l'erreur de"
+        "Bouton « 🔑 J'ai reçu ma clé — l'activer » dans la bannière de suivi"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "Message clair quand le serveur se contredit (refuse le montant"
+        "La commande se marque livrée dans TOUS les cas : nouvelle clé",
+        "Message de vérification plus clair : « Pas encore validée — la clé"
       ]
     }
   ]

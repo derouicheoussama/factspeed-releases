@@ -1,22 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.90.13",
-  "tag": "v9.90.13",
+  "latest": "9.91.0",
+  "tag": "v9.91.0",
   "date": "2026-10-20",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.13/FactSpeed-Setup-9.90.13.exe",
-    "windows_taille": 143496971,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.0/FactSpeed-Setup-9.91.0.exe",
+    "windows_taille": 143497838,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.13/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Le QR de la carte Licence ouvre une vraie page au lieu du texte"
+        "Mention n° 19 du décret exécutif 05-468 : les conditions et le",
+        "Diagnostic de conformité renforcé : la carte Conformité fiscale",
+        "docs/CONFORMITE-DGI.md : la correspondance complète des 19",
+        "Test de conformité automatique : 13 nouveaux tests garantissent"
       ]
     }
   ]

@@ -1,34 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.90.8",
-  "tag": "v9.90.8",
+  "latest": "9.90.9",
+  "tag": "v9.90.9",
   "date": "2026-10-20",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.8/FactSpeed-Setup-9.90.8.exe",
-    "windows_taille": 143496044,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.9/FactSpeed-Setup-9.90.9.exe",
+    "windows_taille": 143496221,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.8/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.9/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Formulaire prérempli avec la fiche du poste : nom du titulaire, email",
-        "Cinq modes de paiement séparés (BaridiMob, CCP, Virement, PayPal,",
-        "Formules sélectionnables dans le formulaire : Pro (1 poste), Duo",
-        "Durée : boutons − / + de 1 à 10 ans, ou Lifetime ♾ — le total",
-        "Tarifs du site en priorité (billing:sitePlans, repli silencieux sur",
-        "Écran de confirmation enrichi : référence copiable d'un clic,",
-        "Suivi de commande : la référence reste affichée « en attente de"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Limite de commandes atteinte (429) : le message invite désormais à"
+        "« Le montant ne correspond pas au tarif actuel » (HTTP 409) : quand",
+        "Si le serveur indique son tarif attendu dans le refus, il est affiché"
       ]
     }
   ]

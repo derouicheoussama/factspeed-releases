@@ -1,22 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.90.5",
-  "tag": "v9.90.5",
+  "latest": "9.90.6",
+  "tag": "v9.90.6",
   "date": "2026-10-20",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.5/FactSpeed-Setup-9.90.5.exe",
-    "windows_taille": 143494335,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.6/FactSpeed-Setup-9.90.6.exe",
+    "windows_taille": 143494473,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.5/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.6/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Le champ `message` de la réponse du site est affiché en priorité dans"
+        "Chaque commande part avec l'en-tête `x-license-key` contenant la clé FS",
+        "L'email de la commande est celui de la licence en priorité (champ du"
       ]
     }
   ]

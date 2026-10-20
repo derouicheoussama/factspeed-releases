@@ -1,29 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.90.11",
-  "tag": "v9.90.11",
+  "latest": "9.90.12",
+  "tag": "v9.90.12",
   "date": "2026-10-20",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.11/FactSpeed-Setup-9.90.11.exe",
-    "windows_taille": 143496569,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.12/FactSpeed-Setup-9.90.12.exe",
+    "windows_taille": 143497086,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.11/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.12/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Bouton « 🔑 J'ai reçu ma clé — l'activer » dans la bannière de suivi"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "La commande se marque livrée dans TOUS les cas : nouvelle clé",
-        "Message de vérification plus clair : « Pas encore validée — la clé"
+        "QR code du code machine dans la carte Licence & activation : le",
+        "Fiche express dans le bandeau de statut : validité (Lifetime ♾ ou"
       ]
     }
   ]

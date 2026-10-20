@@ -1,22 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.89.1",
-  "tag": "v9.89.1",
+  "latest": "9.89.2",
+  "tag": "v9.89.2",
   "date": "2026-10-19",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.1/FactSpeed-Setup-9.89.1.exe",
-    "windows_taille": 143492796,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.2/FactSpeed-Setup-9.89.2.exe",
+    "windows_taille": 143492981,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.89.2/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Accueil personnalisé selon l'heure (Bonjour / Bon après-midi / Bonsoir)",
+        "Détection Verr. Maj : un avertissement s'affiche sous le mot de passe si",
+        "Nom d'utilisateur mémorisé : prérempli à la prochaine ouverture",
+        "Fond animé en douceur (halos qui dérivent lentement) et entrée animée"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Le réglage « Taille du texte » (Petit / Normal / Grand) n'avait aucun"
+        "Champ mot de passe : avertissement repositionné sous le champ "
       ]
     }
   ]

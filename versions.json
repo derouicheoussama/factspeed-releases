@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.90.12",
-  "tag": "v9.90.12",
+  "latest": "9.90.13",
+  "tag": "v9.90.13",
   "date": "2026-10-20",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.12/FactSpeed-Setup-9.90.12.exe",
-    "windows_taille": 143497086,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.13/FactSpeed-Setup-9.90.13.exe",
+    "windows_taille": 143496971,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.12/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.90.13/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "QR code du code machine dans la carte Licence & activation : le",
-        "Fiche express dans le bandeau de statut : validité (Lifetime ♾ ou"
+        "Le QR de la carte Licence ouvre une vraie page au lieu du texte"
       ]
     }
   ]

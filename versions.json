@@ -1,26 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.92.0",
-  "tag": "v9.92.0",
+  "latest": "9.92.1",
+  "tag": "v9.92.1",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.0/FactSpeed-Setup-9.92.0.exe",
-    "windows_taille": 143500038,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.1/FactSpeed-Setup-9.92.1.exe",
+    "windows_taille": 143500337,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Boucle complète vente → livraison → retour → avoir : sur chaque",
-        "Client retrouvé automatiquement par téléphone (puis nom) ; si",
-        "Anti-doublon : l'avoir créé est mémorisé sur l'envoi — le bouton",
-        "Migration base v52 (filet de sauvegarde pré-migration inclus) :",
-        "6 nouveaux tests (192 au total) : création préremplie, anti-doublon,"
+        "Fiche express enrichie dans le bandeau de statut : Formule",
+        "Bouton « Vérifier le serveur » toujours visible dans la grille"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Colonne « Machine & actions » restructurée : actions regroupées",
+        "Badge « DZ » remplacé : l'emoji drapeau 🇩🇿 ne s'affichait pas sous"
       ]
     }
   ]

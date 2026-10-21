@@ -1,24 +1,26 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.91.2",
-  "tag": "v9.91.2",
+  "latest": "9.92.0",
+  "tag": "v9.92.0",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.2/FactSpeed-Setup-9.91.2.exe",
-    "windows_taille": 143498654,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.0/FactSpeed-Setup-9.92.0.exe",
+    "windows_taille": 143500038,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Les tarifs publiés par le site s'affichent maintenant vraiment :",
-        "Prix Lifetime officiel : la fenêtre de commande utilise le prix",
-        "Coordonnées de paiement enrichies : le site fournit bénéficiaire,"
+        "Boucle complète vente → livraison → retour → avoir : sur chaque",
+        "Client retrouvé automatiquement par téléphone (puis nom) ; si",
+        "Anti-doublon : l'avoir créé est mémorisé sur l'envoi — le bouton",
+        "Migration base v52 (filet de sauvegarde pré-migration inclus) :",
+        "6 nouveaux tests (192 au total) : création préremplie, anti-doublon,"
       ]
     }
   ]

@@ -36,5 +36,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh attestation list "FactSpeed-Setup-${{ inputs.version }}.exe" \
+          gh attestation verify "FactSpeed-Setup-${{ inputs.version }}.exe" \
             -R derouicheoussama/factspeed-releases

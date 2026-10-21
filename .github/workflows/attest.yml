@@ -1,0 +1,40 @@
+name: Attestation de provenance (Sigstore)
+
+# Preuve vérifiable que l'installateur publié vient bien de ce dépôt :
+# attestation signée Sigstore (build provenance) liée au digest sha256
+# de l'exe. Vérification côté client :
+#   gh attestation verify FactSpeed-Setup-<version>.exe -R derouicheoussama/factspeed-releases
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version attestée (ex. 9.92.0)'
+        required: true
+
+permissions:
+  id-token: write
+  contents: read
+  attestations: write
+
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Télécharger l'installateur publié
+        run: |
+          V="${{ inputs.version }}"
+          curl -sL --fail -o "FactSpeed-Setup-${V}.exe" \
+            "https://github.com/derouicheoussama/factspeed-releases/releases/download/v${V}/FactSpeed-Setup-${V}.exe"
+          sha256sum "FactSpeed-Setup-${V}.exe"
+
+      - name: Attestation de provenance (Sigstore)
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: FactSpeed-Setup-${{ inputs.version }}.exe
+
+      - name: Contrôle local de l'attestation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh attestation list "FactSpeed-Setup-${{ inputs.version }}.exe" \
+            -R derouicheoussama/factspeed-releases

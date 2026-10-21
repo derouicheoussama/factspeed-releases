@@ -1,24 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.93.0",
-  "tag": "v9.93.0",
+  "latest": "9.93.1",
+  "tag": "v9.93.1",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.0/FactSpeed-Setup-9.93.0.exe",
-    "windows_taille": 143501190,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.1/FactSpeed-Setup-9.93.1.exe",
+    "windows_taille": 143501438,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Toutes les fenêtres (popups) gagnent les standards pro :",
-        "Validation inline dans les formulaires : Client et Produit",
-        "Anneau de focus homogène sur tous les champs de saisie de"
+        "Validation « erreurs sous le champ » étendue à tous les formulaires",
+        "L'erreur apparaît sous le champ concerné après le premier clic sur"
       ]
     }
   ]

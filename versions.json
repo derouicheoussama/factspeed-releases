@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.95.0",
-  "tag": "v9.95.0",
+  "latest": "9.95.1",
+  "tag": "v9.95.1",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.0/FactSpeed-Setup-9.95.0.exe",
-    "windows_taille": 143505647,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.1/FactSpeed-Setup-9.95.1.exe",
+    "windows_taille": 143505637,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "12ᵉ modèle de facture : عربي — Arabe RTL — facture 100 % arabe",
-        "Clients : pagination serveur (gros volume) — les listes de"
+        "La liste Clients ne s'ouvrait plus (erreur SQL introduite par la"
       ]
     }
   ]

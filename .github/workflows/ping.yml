@@ -1,0 +1,16 @@
+name: Ping Actions
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping
+        run: |
+          echo "Actions OK sur ${{ github.repository }}"
+          curl -sI https://github.com | head -1

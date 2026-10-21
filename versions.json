@@ -1,23 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.91.1",
-  "tag": "v9.91.1",
-  "date": "2026-10-20",
+  "latest": "9.91.2",
+  "tag": "v9.91.2",
+  "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.1/FactSpeed-Setup-9.91.1.exe",
-    "windows_taille": 143498209,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.2/FactSpeed-Setup-9.91.2.exe",
+    "windows_taille": 143498654,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.91.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Liste officielle des formes juridiques (SARL, EURL, SPA, SPAS,",
-        "Diagnostic de conformité : nouveau contrôle « Forme juridique"
+        "Les tarifs publiés par le site s'affichent maintenant vraiment :",
+        "Prix Lifetime officiel : la fenêtre de commande utilise le prix",
+        "Coordonnées de paiement enrichies : le site fournit bénéficiaire,"
       ]
     }
   ]

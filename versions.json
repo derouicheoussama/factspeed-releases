@@ -1,25 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.94.0",
-  "tag": "v9.94.0",
+  "latest": "9.95.0",
+  "tag": "v9.95.0",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.94.0/FactSpeed-Setup-9.94.0.exe",
-    "windows_taille": 143502954,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.94.0/FactSpeed-9.94.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.94.0/FactSpeed-9.94.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.0/FactSpeed-Setup-9.95.0.exe",
+    "windows_taille": 143505647,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.94.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Échéancier de paiement « par facilités » dans l'éditeur de facture,",
-        "Imprimé sur tous les modèles (11/11) : tableau « Paiement par",
-        "Le stockage passe par les données structurées du document",
-        "14 nouveaux tests (206 au total)"
+        "12ᵉ modèle de facture : عربي — Arabe RTL — facture 100 % arabe",
+        "Clients : pagination serveur (gros volume) — les listes de"
       ]
     }
   ]

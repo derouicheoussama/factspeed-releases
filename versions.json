@@ -1,23 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.93.1",
-  "tag": "v9.93.1",
+  "latest": "9.94.0",
+  "tag": "v9.94.0",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.1/FactSpeed-Setup-9.93.1.exe",
-    "windows_taille": 143501438,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.94.0/FactSpeed-Setup-9.94.0.exe",
+    "windows_taille": 143502954,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.94.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Validation « erreurs sous le champ » étendue à tous les formulaires",
-        "L'erreur apparaît sous le champ concerné après le premier clic sur"
+        "Échéancier de paiement « par facilités » dans l'éditeur de facture,",
+        "Imprimé sur tous les modèles (11/11) : tableau « Paiement par",
+        "Le stockage passe par les données structurées du document",
+        "14 nouveaux tests (206 au total)"
       ]
     }
   ]

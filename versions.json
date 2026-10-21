@@ -1,23 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.98.2",
-  "tag": "v9.98.2",
+  "latest": "9.99.0",
+  "tag": "v9.99.0",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.98.2/FactSpeed-Setup-9.98.2.exe",
-    "windows_taille": 143509587,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.0/FactSpeed-Setup-9.99.0.exe",
+    "windows_taille": 143509896,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.98.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Mesure du démarrage dans le journal technique : la durée réelle",
+        "docs/CARTE-CODEBASE.md : cartographie du codebase (~41 300 lignes,"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Popups des listes déroulantes noirs (suivaient le mode sombre de",
-        "Fenêtre « Tous les modules » codée en noir : elle suit maintenant"
+        "Écritures SQLite accélérées : le mode `synchronous` passe de FULL à"
       ]
     }
   ]

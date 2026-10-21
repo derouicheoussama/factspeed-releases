@@ -1,22 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.95.1",
-  "tag": "v9.95.1",
+  "latest": "9.96.0",
+  "tag": "v9.96.0",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.1/FactSpeed-Setup-9.95.1.exe",
-    "windows_taille": 143505637,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.0/FactSpeed-Setup-9.96.0.exe",
+    "windows_taille": 143509188,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.95.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "La liste Clients ne s'ouvrait plus (erreur SQL introduite par la"
+        "⚡ Facturer les échéances dues — en 1 clic : sur la page",
+        "Zéro doublon garanti : chaque facture fait avancer l'échéance de",
+        "Chaque abonnement est indépendant : une erreur sur l'un n'empêche",
+        "Gestion des fins de mois (31/01 + 1 mois → 28/02, clampé) et"
       ]
     }
   ]

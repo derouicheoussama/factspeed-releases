@@ -1,28 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.96.1",
-  "tag": "v9.96.1",
+  "latest": "9.96.2",
+  "tag": "v9.96.2",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.1/FactSpeed-Setup-9.96.1.exe",
-    "windows_taille": 143509086,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.2/FactSpeed-Setup-9.96.2.exe",
+    "windows_taille": 143509626,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.2/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Crash de l'application après la création d'un produit ou fournisseur"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "Le test de bout en bout couvre maintenant TOUS les modules (41"
+        "Devise en arabe sur tout le modèle عربي : les lignes d'articles",
+        "Échéancier imprimé en arabe sur le modèle عربي : جدول الأقساط",
+        "Nouveau test de rendu visuel permanent : génère la facture arabe"
       ]
     }
   ]

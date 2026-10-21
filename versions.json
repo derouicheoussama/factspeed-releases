@@ -1,24 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.96.2",
-  "tag": "v9.96.2",
+  "latest": "9.97.0",
+  "tag": "v9.97.0",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.2/FactSpeed-Setup-9.96.2.exe",
-    "windows_taille": 143509626,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.97.0/FactSpeed-Setup-9.97.0.exe",
+    "windows_taille": 143509808,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.96.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.97.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Commande en ligne directement depuis l'écran d'expiration : le",
+        "Même email que l'essai garanti : l'email du compte local est",
+        "Suivi de commande sur l'écran de verrouillage : si une commande"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Devise en arabe sur tout le modèle عربي : les lignes d'articles",
-        "Échéancier imprimé en arabe sur le modèle عربي : جدول الأقساط",
-        "Nouveau test de rendu visuel permanent : génère la facture arabe"
+        "Message d'accueil de l'écran d'expiration réécrit : « Passez à la"
       ]
     }
   ]

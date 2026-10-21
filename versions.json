@@ -1,30 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.92.1",
-  "tag": "v9.92.1",
+  "latest": "9.93.0",
+  "tag": "v9.93.0",
   "date": "2026-10-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.1/FactSpeed-Setup-9.92.1.exe",
-    "windows_taille": 143500337,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.0/FactSpeed-Setup-9.93.0.exe",
+    "windows_taille": 143501190,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.92.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.93.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Fiche express enrichie dans le bandeau de statut : Formule",
-        "Bouton « Vérifier le serveur » toujours visible dans la grille"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Colonne « Machine & actions » restructurée : actions regroupées",
-        "Badge « DZ » remplacé : l'emoji drapeau 🇩🇿 ne s'affichait pas sous"
+        "Toutes les fenêtres (popups) gagnent les standards pro :",
+        "Validation inline dans les formulaires : Client et Produit",
+        "Anneau de focus homogène sur tous les champs de saisie de"
       ]
     }
   ]

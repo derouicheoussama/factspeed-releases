@@ -1,24 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.0.2",
-  "tag": "v10.0.2",
+  "latest": "10.0.3",
+  "tag": "v10.0.3",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/FactSpeed-Setup-10.0.2.exe",
-    "windows_taille": 143522411,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/FactSpeed-10.0.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/FactSpeed-10.0.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.3/FactSpeed-Setup-10.0.3.exe",
+    "windows_taille": 143522952,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.3/FactSpeed-10.0.3-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.3/FactSpeed-10.0.3-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Paramètres › Entreprise repensée",
+      "titre": "Corrigé & poli",
       "items": [
-        "Cartes numérotées : Identité · Identifiants fiscaux · Adresse & contact · Banque",
-        "Complétude légale en direct (6 mentions exigées) + bouton « Compléter maintenant »",
-        "Aperçu de l'en-tête de facture mis à jour pendant la saisie"
+        "Taille du texte : n déforme plus le dock du bas — le zoom s'applique au contenu seul",
+        "Paramètres : recherche en pop-up (bouton loupe) + sections alignées à la largeur du menu"
       ]
     }
   ]

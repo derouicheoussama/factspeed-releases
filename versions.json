@@ -1,24 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.1.0",
-  "tag": "v10.1.0",
+  "latest": "10.1.1",
+  "tag": "v10.1.1",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/FactSpeed-Setup-10.1.0.exe",
-    "windows_taille": 143534407,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/FactSpeed-10.1.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/FactSpeed-10.1.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/FactSpeed-Setup-10.1.1.exe",
+    "windows_taille": 143534500,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/FactSpeed-10.1.1-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/FactSpeed-10.1.1-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Majeur — Profils métier",
+      "titre": "Corrigé",
       "items": [
-        "18 métiers complets : garage, restaurant, boulangerie, supérette, habillement, quincaillerie, BTP, pharmacie, import-export…",
-        "Champs intelligents spécifiques par métier, imprimés sur les factures (IMEI, immatriculation, table, lot…)",
-        "Changer de métier ne supprime rien : tout est masqué puis retrouvé exactement au retour"
+        "macOS : mises à jour automatiques réparées (plus de blocage sur « Installation… ») — les Mac bloqués installent une fois le DMG à la main, ensuite tout est automatique",
+        "Inclus 10.1.0 : 18 profils métier complets et séparés, champs spécifiques imprimés sur les factures"
       ]
     }
   ]

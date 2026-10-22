@@ -1,23 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.99.3",
-  "tag": "v9.99.3",
+  "latest": "10.0.0",
+  "tag": "v10.0.0",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.3/FactSpeed-Setup-9.99.3.exe",
-    "windows_taille": 143513890,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.3/FactSpeed-9.99.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.3/FactSpeed-9.99.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/FactSpeed-Setup-10.0.0.exe",
+    "windows_taille": 143517718,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/FactSpeed-10.0.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/FactSpeed-10.0.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Nouveau",
+      "titre": "Majeur 10.0 — Achats & multi-dépôts",
       "items": [
-        "Facture par WhatsApp en 1 clic : bouton 💬 sur les documents validés — PDF prêt + message prérempli (client, montant, échéance)",
-        "Garde anti-fraude horloge (9.99.2) : date reculée = logiciel verrouillé avec avertissement bilingue"
+        "Bons de commande fournisseur : BC → réception → entrée en stock → dépense d'achat créée en un clic",
+        "Stock multi-dépôts : entrepôts, transferts traçables, inventaire dépôt par dépôt",
+        "Ventes synchronisées : les sorties déduisent du dépôt principal, total toujours cohérent"
+      ]
+    },
+    {
+      "titre": "Également",
+      "items": [
+        "Facture par WhatsApp en 1 clic (9.99.3)",
+        "Garde anti-fraude horloge (9.99.2) : date reculée = logiciel verrouillé"
       ]
     }
   ]

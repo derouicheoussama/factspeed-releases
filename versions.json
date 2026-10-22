@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.0.5",
-  "tag": "v10.0.5",
+  "latest": "10.0.6",
+  "tag": "v10.0.6",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.5/FactSpeed-Setup-10.0.5.exe",
-    "windows_taille": 143522936,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.5/FactSpeed-10.0.5-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.5/FactSpeed-10.0.5-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.6/FactSpeed-Setup-10.0.6.exe",
+    "windows_taille": 143523074,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.6/FactSpeed-10.0.6-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.6/FactSpeed-10.0.6-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.5/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.6/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajusté",
+      "titre": "Corrigé",
       "items": [
-        "Barre Paramètres : sections réparties sur toute la largeur (plus de vide à droite)",
-        "Icône loupe en bout de barre — clic = recherche de réglage"
+        "« Catalogue de démarrage » et les actions sensibles de Paramètres ne gèlent plus : confirmations modernes dans l'application (plus jamais de fenêtre Windows cachée derrière)"
       ]
     }
   ]

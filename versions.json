@@ -1,22 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.0.7",
-  "tag": "v10.0.7",
+  "latest": "10.1.0",
+  "tag": "v10.1.0",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.7/FactSpeed-Setup-10.0.7.exe",
-    "windows_taille": 143523022,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.7/FactSpeed-10.0.7-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.7/FactSpeed-10.0.7-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/FactSpeed-Setup-10.1.0.exe",
+    "windows_taille": 143534407,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/FactSpeed-10.1.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/FactSpeed-10.1.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.7/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajusté",
+      "titre": "Majeur — Profils métier",
       "items": [
-        "Barre Paramètres : même largeur pour chaque icône — espacement parfaitement régulier sur toute la barre"
+        "18 métiers complets : garage, restaurant, boulangerie, supérette, habillement, quincaillerie, BTP, pharmacie, import-export…",
+        "Champs intelligents spécifiques par métier, imprimés sur les factures (IMEI, immatriculation, table, lot…)",
+        "Changer de métier ne supprime rien : tout est masqué puis retrouvé exactement au retour"
       ]
     }
   ]

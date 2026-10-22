@@ -1,24 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.0.1",
-  "tag": "v10.0.1",
+  "latest": "10.0.2",
+  "tag": "v10.0.2",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/FactSpeed-Setup-10.0.1.exe",
-    "windows_taille": 143519396,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/FactSpeed-10.0.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/FactSpeed-10.0.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/FactSpeed-Setup-10.0.2.exe",
+    "windows_taille": 143522411,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/FactSpeed-10.0.2-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/FactSpeed-10.0.2-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Interface repensée",
+      "titre": "Paramètres › Entreprise repensée",
       "items": [
-        "Dépôts & transferts : fenêtre moderne (onglets, stock en direct par dépôt, validation en ligne, résumé du transfert)",
-        "Inventaire : dernier stock connu + écart de comptage calculé automatiquement",
-        "Bons de commande : mêmes standards visuels, total par ligne, statuts en pastilles"
+        "Cartes numérotées : Identité · Identifiants fiscaux · Adresse & contact · Banque",
+        "Complétude légale en direct (6 mentions exigées) + bouton « Compléter maintenant »",
+        "Aperçu de l'en-tête de facture mis à jour pendant la saisie"
       ]
     }
   ]

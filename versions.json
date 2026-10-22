@@ -1,30 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.99.1",
-  "tag": "v9.99.1",
+  "latest": "9.99.2",
+  "tag": "v9.99.2",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/FactSpeed-Setup-9.99.1.exe",
-    "windows_taille": 143509848,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/FactSpeed-9.99.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/FactSpeed-9.99.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.2/FactSpeed-Setup-9.99.2.exe",
+    "windows_taille": 143513912,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.2/FactSpeed-9.99.2-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.2/FactSpeed-9.99.2-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Nouveau",
       "items": [
-        "La pagination des Clients fonctionne à nouveau (gros volumes)",
-        "Boutons de la fenêtre « Tous les modules » lisibles sur thème clair"
+        "Garde anti-fraude : date système reculée de plus de 48 h = logiciel verrouillé avec écran d'avertissement (français / العربية)",
+        "Correction automatique : remettre l'horloge à l'heure déverrouille le logiciel"
       ]
     },
     {
-      "titre": "Performance",
+      "titre": "Renforcé",
       "items": [
-        "Démarrage mesuré dans le journal technique (« interface prête en N ms »)",
-        "Écritures base de données accélérées (WAL, mode NORMAL)"
+        "Licences en ligne FS- désormais couvertes par le garde horloge",
+        "Ancres de temps rafraîchies à chaque démarrage — aucune période de grâce falsifiable"
       ]
     }
   ]

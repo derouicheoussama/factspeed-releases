@@ -1,22 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "9.98.3",
-  "tag": "v9.98.3",
+  "latest": "9.99.1",
+  "tag": "v9.99.1",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.98.3/FactSpeed-Setup-9.98.3.exe",
-    "windows_taille": 143509615,
-    "mac_arm64": null,
-    "mac_intel": null,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/FactSpeed-Setup-9.99.1.exe",
+    "windows_taille": 143509848,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/FactSpeed-9.99.1-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/FactSpeed-9.99.1-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.98.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v9.99.1/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Texte des modules illisible sur la fenêtre « Tous les modules »"
+        "La pagination des Clients fonctionne à nouveau (gros volumes)",
+        "Boutons de la fenêtre « Tous les modules » lisibles sur thème clair"
+      ]
+    },
+    {
+      "titre": "Performance",
+      "items": [
+        "Démarrage mesuré dans le journal technique (« interface prête en N ms »)",
+        "Écritures base de données accélérées (WAL, mode NORMAL)"
       ]
     }
   ]

@@ -1,31 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.0.0",
-  "tag": "v10.0.0",
+  "latest": "10.0.1",
+  "tag": "v10.0.1",
   "date": "2026-10-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/FactSpeed-Setup-10.0.0.exe",
-    "windows_taille": 143517718,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/FactSpeed-10.0.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/FactSpeed-10.0.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/FactSpeed-Setup-10.0.1.exe",
+    "windows_taille": 143519396,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/FactSpeed-10.0.1-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/FactSpeed-10.0.1-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.0.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Majeur 10.0 — Achats & multi-dépôts",
+      "titre": "Interface repensée",
       "items": [
-        "Bons de commande fournisseur : BC → réception → entrée en stock → dépense d'achat créée en un clic",
-        "Stock multi-dépôts : entrepôts, transferts traçables, inventaire dépôt par dépôt",
-        "Ventes synchronisées : les sorties déduisent du dépôt principal, total toujours cohérent"
-      ]
-    },
-    {
-      "titre": "Également",
-      "items": [
-        "Facture par WhatsApp en 1 clic (9.99.3)",
-        "Garde anti-fraude horloge (9.99.2) : date reculée = logiciel verrouillé"
+        "Dépôts & transferts : fenêtre moderne (onglets, stock en direct par dépôt, validation en ligne, résumé du transfert)",
+        "Inventaire : dernier stock connu + écart de comptage calculé automatiquement",
+        "Bons de commande : mêmes standards visuels, total par ligne, statuts en pastilles"
       ]
     }
   ]

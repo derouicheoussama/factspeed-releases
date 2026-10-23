@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.3.0",
-  "tag": "v10.3.0",
+  "latest": "10.4.0",
+  "tag": "v10.4.0",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.3.0/FactSpeed-Setup-10.3.0.exe",
-    "windows_taille": 143550037,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.3.0/FactSpeed-10.3.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.3.0/FactSpeed-10.3.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.0/FactSpeed-Setup-10.4.0.exe",
+    "windows_taille": 143552286,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.0/FactSpeed-10.4.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.0/FactSpeed-10.4.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.3.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.0/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Login 8 complet",
+      "titre": "Thème Minimal",
       "items": [
-        "Code PIN de connexion : 6 chiffres, validation automatique, interdit à l'administrateur, désactivé après 2 blocages",
-        "Session verrouillée repensée : déverrouillage par PIN, mot de passe ou empreinte, aucune donnée visible"
+        "Deuxième style complet au choix : Classique (défaut) ou Minimal (Login 8) — grande typographie, cartes plates, boutons pilule noire, montants en mono"
       ]
     }
   ]

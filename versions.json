@@ -1,25 +1,25 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.4.4",
-  "tag": "v10.4.4",
+  "latest": "10.4.5",
+  "tag": "v10.4.5",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-Windows.zip",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.5/FactSpeed-10.4.5-Windows.zip",
     "windows_zip_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip",
-    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-Setup-10.4.4.exe",
-    "windows_taille": 143270787,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-x64.dmg",
+    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.5/FactSpeed-Setup-10.4.5.exe",
+    "windows_taille": 143000000,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.5/FactSpeed-10.4.5-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.5/FactSpeed-10.4.5-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.5/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Téléchargement sécurisé",
       "items": [
-        "Le logiciel est distribué en archive ZIP (les navigateurs bloquent les .exe) — décompressez puis installez",
-        "Éditeur affiché : Infinity PubKom — empreinte SHA-256 fournie pour vérification"
+        "Distribution en archive ZIP — décompressez puis installez (les navigateurs bloquent les .exe)",
+        "Éditeur : Infinity PubKom — empreinte SHA-256 fournie pour vérification"
       ]
     }
   ]

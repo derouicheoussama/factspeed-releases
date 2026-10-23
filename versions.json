@@ -5,8 +5,10 @@
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-Setup-10.4.4.exe",
-    "windows_taille": 143552057,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-Windows.zip",
+    "windows_zip_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip",
+    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-Setup-10.4.4.exe",
+    "windows_taille": 143270787,
     "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-arm64.dmg",
     "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
@@ -14,9 +16,10 @@
   "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Éditeur Infinity PubKom",
+      "titre": "Téléchargement sécurisé",
       "items": [
-        "Windows affiche « Infinity PubKom » comme éditeur du logiciel (plus jamais « Inconnu »)"
+        "Le logiciel est distribué en archive ZIP (les navigateurs bloquent les .exe) — décompressez puis installez",
+        "Éditeur affiché : Infinity PubKom — empreinte SHA-256 fournie pour vérification"
       ]
     }
   ]

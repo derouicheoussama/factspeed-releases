@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.4.2",
-  "tag": "v10.4.2",
+  "latest": "10.4.3",
+  "tag": "v10.4.3",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.2/FactSpeed-Setup-10.4.2.exe",
-    "windows_taille": 143552357,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.2/FactSpeed-10.4.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.2/FactSpeed-10.4.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/FactSpeed-Setup-10.4.3.exe",
+    "windows_taille": 143552097,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/FactSpeed-10.4.3-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/FactSpeed-10.4.3-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Mode démo sécurisé",
+      "titre": "Démarrage premium",
       "items": [
-        "Consultation uniquement : le visiteur parcourt l interface sans rien modifier",
-        "3 jours maximum par poste, expiration définitive"
+        "Écran de chargement professionnel : logo animé, anneau de progression, barre fluide, fond marine avec halos"
       ]
     }
   ]

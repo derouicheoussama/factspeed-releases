@@ -1,23 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.1.1",
-  "tag": "v10.1.1",
-  "date": "2026-10-22",
+  "latest": "10.1.2",
+  "tag": "v10.1.2",
+  "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/FactSpeed-Setup-10.1.1.exe",
-    "windows_taille": 143534500,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/FactSpeed-10.1.1-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/FactSpeed-10.1.1-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/FactSpeed-Setup-10.1.2.exe",
+    "windows_taille": 143534502,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/FactSpeed-10.1.2-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/FactSpeed-10.1.2-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Conformité",
       "items": [
-        "macOS : mises à jour automatiques réparées (plus de blocage sur « Installation… ») — les Mac bloqués installent une fois le DMG à la main, ensuite tout est automatique",
-        "Inclus 10.1.0 : 18 profils métier complets et séparés, champs spécifiques imprimés sur les factures"
+        "TVA des profils métier alignée sur les textes officiels (art. 23 CTCA, LF 2022) : restauration et boulangerie à 19 % par défaut, alimentation à 9 %, Omra et export exonérés",
+        "Inclus : profils métier complets (18 métiers), mises à jour Mac réparées, garde anti-fraude horloge"
       ]
     }
   ]

@@ -1,23 +1,23 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.2.0",
-  "tag": "v10.2.0",
+  "latest": "10.2.1",
+  "tag": "v10.2.1",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.0/FactSpeed-Setup-10.2.0.exe",
-    "windows_taille": 143539321,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.0/FactSpeed-10.2.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.0/FactSpeed-10.2.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.1/FactSpeed-Setup-10.2.1.exe",
+    "windows_taille": 143546594,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.1/FactSpeed-10.2.1-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.1/FactSpeed-10.2.1-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.2.1/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Connexion « Login 8 »",
+      "titre": "Installation sans UAC",
       "items": [
-        "Design minimal : titres géants à point coloré selon l état, champs soulignés, bouton pilule noire",
-        "Erreur sans indice + essais restants, blocage avec compte à rebours, alerte horloge reliée à la garde anti-fraude"
+        "Installateur sans fenêtre UAC ni droits administrateur : installation dans votre profil utilisateur (%LOCALAPPDATA%Programs)",
+        "Clients existants : la mise à jour peut demander UNE fois les droits admin pour retirer l ancienne copie de Program Files"
       ]
     }
   ]

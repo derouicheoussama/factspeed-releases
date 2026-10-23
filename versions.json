@@ -1,23 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.1.2",
-  "tag": "v10.1.2",
+  "latest": "10.1.3",
+  "tag": "v10.1.3",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/FactSpeed-Setup-10.1.2.exe",
-    "windows_taille": 143534502,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/FactSpeed-10.1.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/FactSpeed-10.1.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.3/FactSpeed-Setup-10.1.3.exe",
+    "windows_taille": 143535141,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.3/FactSpeed-10.1.3-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.3/FactSpeed-10.1.3-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.1.3/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Conformité",
+      "titre": "Interface",
       "items": [
-        "TVA des profils métier alignée sur les textes officiels (art. 23 CTCA, LF 2022) : restauration et boulangerie à 19 % par défaut, alimentation à 9 %, Omra et export exonérés",
-        "Inclus : profils métier complets (18 métiers), mises à jour Mac réparées, garde anti-fraude horloge"
+        "Écran de connexion repensé : panneau de marque bleu + carte épurée — même sécurité (empreinte, double authentification, déverrouillage par licence)"
       ]
     }
   ]

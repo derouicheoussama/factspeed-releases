@@ -1,22 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.4.3",
-  "tag": "v10.4.3",
+  "latest": "10.4.4",
+  "tag": "v10.4.4",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/FactSpeed-Setup-10.4.3.exe",
-    "windows_taille": 143552097,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/FactSpeed-10.4.3-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/FactSpeed-10.4.3-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-Setup-10.4.4.exe",
+    "windows_taille": 143552057,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/FactSpeed-10.4.4-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.3/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.4/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Démarrage premium",
+      "titre": "Éditeur Infinity PubKom",
       "items": [
-        "Écran de chargement professionnel : logo animé, anneau de progression, barre fluide, fond marine avec halos"
+        "Windows affiche « Infinity PubKom » comme éditeur du logiciel (plus jamais « Inconnu »)"
       ]
     }
   ]

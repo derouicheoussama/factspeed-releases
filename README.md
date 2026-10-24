@@ -1,25 +1,28 @@
-# ⬇️ FactExpert — Téléchargement officiel
+# ⬇️ FactSpeed — Téléchargement officiel
 
-![FactExpert](https://github.com/derouicheoussama/factexpert/blob/main/brand/github-hero.png?raw=true)
+![FactSpeed](https://github.com/derouicheoussama/factspeed/blob/main/brand/github-hero.png?raw=true)
 
 **Logiciel professionnel de facturation et gestion commerciale pour le marché algérien.**
 100 % local · Français / العربية · TVA & droit de timbre LF 2025 · Windows 10/11 · macOS 12+
 
 ## 📥 Télécharger la dernière version
 
-**[👉 TÉLÉCHARGER — page des releases](https://github.com/derouicheoussama/factexpert-releases/releases/latest)**
+**[👉 TÉLÉCHARGER — page des releases](https://github.com/derouicheoussama/factspeed-releases/releases/latest)**
+
+**[⬇️ Téléchargement direct Windows (ZIP recommandé)](https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip)**
 
 | Votre ordinateur | Fichier à télécharger |
 |---|---|
-| 🪟 Windows 10 / 11 | `FactExpert-Setup-x.y.z.exe` |
-| 🍎 MacBook M1 / M2 / M3 / M4 | `FactExpert-x.y.z-arm64.dmg` |
-| 🍎 Mac Intel | `FactExpert-x.y.z-x64.dmg` |
+| 🪟 Windows 10 / 11 | `FactSpeed-x.y.z-Windows.zip` (décompressez puis lancez le `.exe`) |
+| 🍎 MacBook M1 / M2 / M3 / M4 | `FactSpeed-x.y.z-arm64.dmg` |
+| 🍎 Mac Intel | `FactSpeed-x.y.z-x64.dmg` |
 
+> 🌐 Les navigateurs bloquent les `.exe` téléchargés directement — passez par le **ZIP**.
 > Vérifiez l'intégrité : chaque release inclut `SHA256SUMS.txt`.
 
 ## 🇩🇿 Conformité Algérie 2026 — 100 % intégré
 
-| Exigence réglementaire | FactExpert |
+| Exigence réglementaire | FactSpeed |
 |---|---|
 | Mentions obligatoires — **décret exécutif 05-468** (RC, NIF, NIS, AI…) | ✅ automatiques sur chaque document |
 | **TVA** 19 % / 9 % / 0 % — ligne par ligne + récapitulatif | ✅ automatique |
@@ -36,7 +39,7 @@
 |---|---|
 | 💵 Espèces (timbre calculé automatiquement) | ✅ |
 | 🧾 Chèque (n° + banque tracés, exonéré de timbre) | ✅ |
-| 🏦 Virement / CCP / BaridiMob (QR RIP sur facture) | ✅ |
+| 🏦 Virement / CCP / BaridiMob (QR RIP sur facture + vérification automatique du virement) | ✅ |
 | 💳 Carte CIB / Edahabia — SATIM, activation automatique | ✅ |
 | 📲 WhatsApp (commande assistée, clé en 1 clic) | ✅ |
 | 🅿 PayPal (international) | ✅ |
@@ -48,14 +51,14 @@
 ## 🚀 Installation
 
 ### Windows
-1. Exécutez le `.exe` — si SmartScreen s'affiche : **Informations complémentaires → Exécuter quand même**
-2. Suivez l'assistant (choisissez votre dossier, lisez les conditions)
+1. Téléchargez le **ZIP**, décompressez-le puis exécutez l'installateur
+2. Suivez l'assistant (choisissez votre dossier, lisez les conditions) — **sans fenêtre administrateur** : tout s'installe dans votre profil utilisateur
 3. Au premier lancement : créez votre compte, choisissez votre métier, c'est parti
-4. **15 jours d'essai gratuit et complet** — sans carte bancaire
+4. **10 jours d'essai gratuit et complet** — sans carte bancaire
 
 ### macOS — installation (toutes versions, y compris Sequoia 15)
-1. Ouvrez le `.dmg` et glissez **FactExpert** dans le dossier **Applications**
-2. Ouvrez FactExpert. Si macOS affiche « Apple n'a pas pu vérifier… » ou
+1. Ouvrez le `.dmg` et glissez **FactSpeed** dans le dossier **Applications**
+2. Ouvrez FactSpeed. Si macOS affiche « Apple n'a pas pu vérifier… » ou
    **« l'application ne peut pas être ouverte (-10661) »**, choisissez UNE des
    solutions ci-dessous (une seule fois — ensuite tout s'ouvre normalement)
 
@@ -67,20 +70,20 @@ passe → **Ouvrir**.
 **✅ Solution 2 — une commande (Terminal)**
 Ouvrez Terminal (Applications → Utilitaires) et collez :
 ```
-xattr -cr /Applications/FactExpert.app
+xattr -cr /Applications/FactSpeed.app
 ```
-puis relancez FactExpert.
+puis relancez FactSpeed.
 
 **✅ Solution 3 — le réparateur en un double-clic**
-Téléchargez **`REPARER-FACTEXPERT-MAC.command`** (ci-dessous dans les
+Téléchargez **`REPARER-FACTSPEED-MAC.command`** (ci-dessous dans les
 fichiers de la version), double-cliquez : il supprime le marquage
-« téléchargé », re-signe localement et ouvre FactExpert.
+« téléchargé », re-signe localement et ouvre FactSpeed.
 
-> ℹ️ **Pourquoi ce message ?** FactExpert est distribué directement (hors Mac
+> ℹ️ **Pourquoi ce message ?** FactSpeed est distribué directement (hors Mac
 > App Store) avec une signature locale adéquate ; macOS 15 (Sequoia) marque
 > tout fichier téléchargé « en quarantaine » et a supprimé l'ancien
 > contournement « clic droit → Ouvrir ». La validation ci-dessus se fait
-> **une seule fois** : ensuite FactExpert s'exécute normalement, sans aucune
+> **une seule fois** : ensuite FactSpeed s'exécute normalement, sans aucune
 > restriction de fonctionnalités. L'application respecte les normes Apple
 > (entitlements minimaux : impression, réseau pour les mises à jour, accès
 > aux fichiers que vous choisissez — jamais caméra ni micro). Vos données
@@ -91,7 +94,7 @@ fichiers de la version), double-cliquez : il supprime le marquage
 Rien à faire : l'application vérifie les nouveautés **au démarrage puis chaque heure**,
 télécharge en arrière-plan et installe au redémarrage. **Vos données, licence et réglages sont toujours conservés.**
 
-## 💳 Licence (après l'essai de 15 jours)
+## 💳 Licence (après l'essai de 10 jours)
 
 - **Pro** 12 000 DA/an · **Duo (2 postes)** 20 000 DA/an · **Business** 24 000 DA/an
 - Achat directement dans le logiciel : carte CIB/Edahabia, virement CCP/BaridiMob, WhatsApp
@@ -104,4 +107,4 @@ WhatsApp : **[+213 770 600 957](https://wa.me/213770600957)** · support@infinit
 
 ---
 
-© 2026 Derouiche Oussama — Infinity PubKom · Infinity Coder · [factexpert.app](https://factexpert.app)
+© 2026 Derouiche Oussama — Infinity PubKom · Infinity Coder · [factspeed.com](https://factspeed.com)

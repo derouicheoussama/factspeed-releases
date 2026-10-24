@@ -1,8 +1,8 @@
-version: 10.4.6
+version: 10.5.0
 files:
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/FactSpeed-Setup-10.4.6.exe
-    sha512: BOjRRjLImyI31gKpMPo9XUJ2VN80rFbTqO8gTDRouUGefmZSFpV19oO1EQbJsD74ydjq+orZEf1VOXxNCuyPeg==
-    size: 143552648
-path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/FactSpeed-Setup-10.4.6.exe
-sha512: BOjRRjLImyI31gKpMPo9XUJ2VN80rFbTqO8gTDRouUGefmZSFpV19oO1EQbJsD74ydjq+orZEf1VOXxNCuyPeg==
-releaseDate: '2026-10-23T23:48:16.716Z'
+  - url: FactSpeed-Setup-10.5.0.exe
+    sha512: CcnkF6DzcCyeWAbZwZ44oiQfEhIPDHswFZl5mnBbjL0dpkurYtVYKLAUEJ9k6x2yI9l/l6iLv2va2wPhvU3jyQ==
+    size: 143524023
+path: FactSpeed-Setup-10.5.0.exe
+sha512: CcnkF6DzcCyeWAbZwZ44oiQfEhIPDHswFZl5mnBbjL0dpkurYtVYKLAUEJ9k6x2yI9l/l6iLv2va2wPhvU3jyQ==
+releaseDate: '2026-10-24T01:06:57.499Z'

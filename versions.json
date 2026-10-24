@@ -1,25 +1,16 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.4.6",
-  "tag": "v10.4.6",
+  "latest": "10.5.0",
+  "tag": "v10.5.0",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/FactSpeed-10.4.6-Windows.zip",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.0/FactSpeed-10.5.0-Windows.zip",
     "windows_zip_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip",
-    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/FactSpeed-Setup-10.4.6.exe",
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/FactSpeed-10.4.6-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/FactSpeed-10.4.6-x64.dmg",
-    "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
+    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.0/FactSpeed-Setup-10.5.0.exe",
+    "windows_exe_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Setup-Windows.exe",
+    "mac": null,
+    "mac_dmg": null
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.4.6/SHA256SUMS.txt",
-  "nouveautes": [
-    {
-      "titre": "Audit complet",
-      "items": [
-        "4 fonctionnalités réparées : export CSV, communes et bureaux Yalidine, thème natif des popups",
-        "Plus de grandes zones vides : les tableaux remplissent la fenêtre et défilent à l intérieur"
-      ]
-    }
-  ]
+  "notes": "https://github.com/derouicheoussama/factspeed-releases/releases/tag/v10.5.0"
 }

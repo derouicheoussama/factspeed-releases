@@ -1,16 +1,16 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.5.8",
-  "tag": "v10.5.8",
+  "latest": "10.5.9",
+  "tag": "v10.5.9",
   "date": "2026-10-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.8/FactSpeed-10.5.8-Windows.zip",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.9/FactSpeed-10.5.9-Windows.zip",
     "windows_zip_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip",
-    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.8/FactSpeed-Setup-10.5.8.exe",
+    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.9/FactSpeed-Setup-10.5.9.exe",
     "windows_exe_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Setup-Windows.exe",
-    "mac": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.8/FactSpeed-10.5.8-arm64.zip",
-    "mac_dmg": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.8/FactSpeed-10.5.8-arm64.dmg"
+    "mac": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.9/FactSpeed-10.5.9-arm64.zip",
+    "mac_dmg": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.9/FactSpeed-10.5.9-arm64.dmg"
   },
-  "notes": "https://github.com/derouicheoussama/factspeed-releases/releases/tag/v10.5.8"
+  "notes": "https://github.com/derouicheoussama/factspeed-releases/releases/tag/v10.5.9"
 }

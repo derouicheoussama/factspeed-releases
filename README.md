@@ -39,7 +39,7 @@
 |---|---|
 | 💵 Espèces (timbre calculé automatiquement) | ✅ |
 | 🧾 Chèque (n° + banque tracés, exonéré de timbre) | ✅ |
-| 🏦 Virement / CCP / BaridiMob (QR RIP sur facture + vérification automatique du virement) | ✅ |
+| 🏦 Virement / CCP / BaridiMob (QR RIP sur facture) | ✅ |
 | 💳 Carte CIB / Edahabia — SATIM, activation automatique | ✅ |
 | 📲 WhatsApp (commande assistée, clé en 1 clic) | ✅ |
 | 🅿 PayPal (international) | ✅ |
@@ -107,4 +107,4 @@ WhatsApp : **[+213 770 600 957](https://wa.me/213770600957)** · support@infinit
 
 ---
 
-© 2026 Derouiche Oussama — Infinity PubKom · Infinity Coder · [factspeed.com](https://factspeed.com)
+© 2026 FactSpeed — Infinity Coder · [factspeed.com](https://factspeed.com)

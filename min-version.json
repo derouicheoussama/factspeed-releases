@@ -1,4 +1,4 @@
 {
-  "minimum": "10.5.16",
-  "note": "Version toujours visible dans le logiciel + toutes les corrections de mise à jour."
+  "minimum": "10.5.17",
+  "note": "Le bouton Installer et redémarrer fonctionne de bout en bout."
 }

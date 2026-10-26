@@ -1,4 +1,4 @@
 {
-  "minimum": "10.5.12",
-  "note": "Mise à jour 100 % silencieuse (plus de fenêtre noire) — toutes les versions antérieures doivent migrer."
+  "minimum": "10.5.14",
+  "note": "Mise à jour obligatoire — écran avec méthode fiable en premier (téléchargement navigateur + installateur)."
 }

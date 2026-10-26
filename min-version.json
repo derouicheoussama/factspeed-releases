@@ -1,4 +1,4 @@
 {
-  "minimum": "10.5.14",
-  "note": "Mise à jour obligatoire — écran avec méthode fiable en premier (téléchargement navigateur + installateur)."
+  "minimum": "10.5.15",
+  "note": "Mise à jour avec désinstallation propre de l'ancienne version — données et licence conservées."
 }

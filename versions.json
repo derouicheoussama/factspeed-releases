@@ -1,16 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.5.12",
-  "tag": "v10.5.12",
-  "date": "2026-10-23",
+  "latest": "10.8.0",
+  "tag": "v10.8.0",
+  "date": "2026-10-28",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.12/FactSpeed-10.5.12-Windows.zip",
-    "windows_zip_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip",
-    "windows_exe": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.12/FactSpeed-Setup-10.5.12.exe",
-    "windows_exe_permanent": "https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Setup-Windows.exe",
-    "mac": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.12/FactSpeed-10.5.12-arm64.zip",
-    "mac_dmg": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.5.12/FactSpeed-10.5.12-arm64.dmg"
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/FactSpeed-Setup-10.8.0.exe",
+    "windows_taille": 143559468,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/FactSpeed-10.8.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/FactSpeed-10.8.0-x64.dmg",
+    "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "notes": "https://github.com/derouicheoussama/factspeed-releases/releases/tag/v10.5.12"
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/SHA256SUMS.txt",
+  "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Relances WhatsApp (file d'envoi) : aux mêmes jalons que les emails",
+        "Signature du devis = bon pour accord : la capture de signature (8.0)"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Relances email automatiques restaurées : la table de suivi des relances",
+        "La date de capture de la signature est conservée et imprimée sous la"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "300 tests (dont 8 nouveaux sur le moteur WhatsApp), E2E 45 étapes avec les"
+      ]
+    }
+  ]
 }

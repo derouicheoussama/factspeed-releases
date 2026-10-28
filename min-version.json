@@ -1,4 +1,4 @@
 {
-  "minimum": "10.7.0",
-  "note": "Ventes : devis accepté en 1 clic, remise fidélité, modèles WhatsApp."
+  "minimum": "10.8.0",
+  "note": "Relances WhatsApp automatiques + signature devis bon pour accord + relances email réparées."
 }

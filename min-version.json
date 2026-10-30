@@ -1,4 +1,4 @@
 {
-  "minimum": "10.11.0",
-  "note": "Mot de passe email chiffré sur votre ordinateur + écran de démarrage au logo FactSpeed."
+  "minimum": "10.12.0",
+  "note": "Notification de mise à jour : plus de répétition à chaque ouverture, fenêtre arrondie."
 }

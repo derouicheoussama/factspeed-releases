@@ -1,24 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.10.0",
-  "tag": "v10.10.0",
+  "latest": "10.11.0",
+  "tag": "v10.11.0",
   "date": "2026-10-30",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/FactSpeed-Setup-10.10.0.exe",
-    "windows_taille": 143617388,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/FactSpeed-10.10.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/FactSpeed-10.10.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.11.0/FactSpeed-Setup-10.11.0.exe",
+    "windows_taille": 143618654,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.11.0/FactSpeed-10.11.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.11.0/FactSpeed-10.11.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.11.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Sécurité",
+      "items": [
+        "Mot de passe SMTP chiffré au repos : le mot de passe du serveur email",
+        "Garde permanente anti-secrets : un scan automatique échoue si une clé,"
+      ]
+    },
     {
       "titre": "Ajouté",
       "items": [
-        "Pop-up de mise à jour élégante : quand une nouvelle version est prête,",
-        "« Installer maintenant » rejoue exactement le parcours sécurisé existant",
-        "La carte suit le téléchargement en direct (barre de progression) et ne"
+        "Écran de démarrage au logo de marque : le « F » FactSpeed (deux tons de"
       ]
     }
   ]

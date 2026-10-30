@@ -1,17 +1,17 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.13.2",
-  "tag": "v10.13.2",
+  "latest": "10.14.0",
+  "tag": "v10.14.0",
   "date": "2026-10-30",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.2/FactSpeed-Setup-10.13.2.exe",
-    "windows_taille": 143620507,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.2/FactSpeed-10.13.2-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.2/FactSpeed-10.13.2-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.0/FactSpeed-Setup-10.14.0.exe",
+    "windows_taille": 143620620,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.0/FactSpeed-10.14.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.0/FactSpeed-10.14.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Sécurité",

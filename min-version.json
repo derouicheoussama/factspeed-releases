@@ -1,4 +1,4 @@
 {
-  "minimum": "10.8.0",
-  "note": "Relances WhatsApp automatiques + signature devis bon pour accord + relances email réparées."
+  "minimum": "10.9.0",
+  "note": "Lecteurs de codes-barres : bip de scan, focus automatique, Code 128 sur les étiquettes, codes-barres uniques."
 }

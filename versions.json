@@ -6,7 +6,7 @@
   "rollout": 100,
   "telecharger": {
     "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.1/FactSpeed-Setup-10.13.1.exe",
-    "windows_taille": 143620595,
+    "windows_taille": 143620103,
     "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.1/FactSpeed-10.13.1-arm64.dmg",
     "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.1/FactSpeed-10.13.1-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"

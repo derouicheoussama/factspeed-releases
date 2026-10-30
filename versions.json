@@ -1,34 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.9.0",
-  "tag": "v10.9.0",
-  "date": "2026-10-29",
+  "latest": "10.10.0",
+  "tag": "v10.10.0",
+  "date": "2026-10-30",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/FactSpeed-Setup-10.9.0.exe",
-    "windows_taille": 143561294,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/FactSpeed-10.9.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/FactSpeed-10.9.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/FactSpeed-Setup-10.10.0.exe",
+    "windows_taille": 143617388,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/FactSpeed-10.10.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/FactSpeed-10.10.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.10.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Bip de scan en caisse : un bip aigu confirme chaque article scanné, un",
-        "Le champ scan ne perd plus jamais le focus : après chaque ajout, après",
-        "EAN-13 mal lu détecté : un code à 13 chiffres dont la clé de contrôle",
-        "Code-barres affiché dans le panier : vérification visuelle de chaque",
-        "Étiquettes avec Code 128 : les codes non-EAN-13 (EAN-8, références",
-        "Avertissement de saisie EAN sur la fiche produit : une clé de contrôle"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Un code-barres ne peut plus être attribué à deux produits (contrôle à",
-        "L'encodage Code 128 est généré par FactSpeed même (zéro dépendance), avec"
+        "Pop-up de mise à jour élégante : quand une nouvelle version est prête,",
+        "« Installer maintenant » rejoue exactement le parcours sécurisé existant",
+        "La carte suit le téléchargement en direct (barre de progression) et ne"
       ]
     }
   ]

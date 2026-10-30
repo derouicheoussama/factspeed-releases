@@ -1,4 +1,4 @@
 {
-  "minimum": "10.14.0",
-  "note": "Identifiant professionnel Windows + pop-up MAJ amelioree."
+  "minimum": "10.14.1",
+  "note": "Audit zerro defect complet: permissions, injection SQL, migration reparee, page a propos compacte."
 }

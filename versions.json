@@ -1,23 +1,41 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.12.0",
-  "tag": "v10.12.0",
+  "latest": "10.13.0",
+  "tag": "v10.13.0",
   "date": "2026-10-30",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.12.0/FactSpeed-Setup-10.12.0.exe",
-    "windows_taille": 143618113,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.12.0/FactSpeed-10.12.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.12.0/FactSpeed-10.12.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.0/FactSpeed-Setup-10.13.0.exe",
+    "windows_taille": 143620547,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.0/FactSpeed-10.13.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.0/FactSpeed-10.13.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.12.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.13.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Sécurité",
+      "items": [
+        "Permissions réellement effectives sur les 13 modules : avant, les cases",
+        "Planning et Contrats protégés : un utilisateur sans droits ne peut plus",
+        "Vérification admin verrouillée : après 8 essais infructueux, blocage de",
+        "Rapports CA : injection SQL corrigée (dates paramétrées)",
+        "Exports Excel protégés contre l'injection de formules (=, +, -, @)"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "La notification de mise à jour ne revient plus à chaque ouverture : le",
-        "Fenêtre transparente : la carte s'affiche seule, arrondie, avec son"
+        "Fournisseurs : création/édition fonctionnelle sur toute base (colonne",
+        "Caisse : rendu monnaie exact — le droit de timbre est désormais inclus",
+        "Modification d'un règlement : montant exact (avant : arrondi à l'entier)",
+        "Une installation avortée ne bloque plus les clics « Installer »"
+      ]
+    },
+    {
+      "titre": "Qualité",
+      "items": [
+        "Audit multi-agents complet (8 périmètres), chaque correctif prouvé par un"
       ]
     }
   ]

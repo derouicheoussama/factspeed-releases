@@ -1,36 +1,34 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.8.0",
-  "tag": "v10.8.0",
-  "date": "2026-10-28",
+  "latest": "10.9.0",
+  "tag": "v10.9.0",
+  "date": "2026-10-29",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/FactSpeed-Setup-10.8.0.exe",
-    "windows_taille": 143559468,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/FactSpeed-10.8.0-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/FactSpeed-10.8.0-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/FactSpeed-Setup-10.9.0.exe",
+    "windows_taille": 143561294,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/FactSpeed-10.9.0-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/FactSpeed-10.9.0-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.8.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.9.0/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Relances WhatsApp (file d'envoi) : aux mêmes jalons que les emails",
-        "Signature du devis = bon pour accord : la capture de signature (8.0)"
+        "Bip de scan en caisse : un bip aigu confirme chaque article scanné, un",
+        "Le champ scan ne perd plus jamais le focus : après chaque ajout, après",
+        "EAN-13 mal lu détecté : un code à 13 chiffres dont la clé de contrôle",
+        "Code-barres affiché dans le panier : vérification visuelle de chaque",
+        "Étiquettes avec Code 128 : les codes non-EAN-13 (EAN-8, références",
+        "Avertissement de saisie EAN sur la fiche produit : une clé de contrôle"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "Relances email automatiques restaurées : la table de suivi des relances",
-        "La date de capture de la signature est conservée et imprimée sous la"
-      ]
-    },
-    {
-      "titre": "Qualité",
-      "items": [
-        "300 tests (dont 8 nouveaux sur le moteur WhatsApp), E2E 45 étapes avec les"
+        "Un code-barres ne peut plus être attribué à deux produits (contrôle à",
+        "L'encodage Code 128 est généré par FactSpeed même (zéro dépendance), avec"
       ]
     }
   ]

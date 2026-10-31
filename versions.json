@@ -1,41 +1,32 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.4",
-  "tag": "v10.14.4",
-  "date": "2026-10-30",
+  "latest": "10.14.5",
+  "tag": "v10.14.5",
+  "date": "2026-10-31",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.4/FactSpeed-Setup-10.14.2.exe",
-    "windows_taille": 143621028,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.4/FactSpeed-10.14.4-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.4/FactSpeed-10.14.4-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.5/FactSpeed-Setup-10.14.5.exe",
+    "windows_taille": 143622441,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.5/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Sécurité",
+      "titre": "Ajouté",
       "items": [
-        "Permissions réellement effectives sur les 13 modules : avant, les cases",
-        "Planning et Contrats protégés : un utilisateur sans droits ne peut plus",
-        "Vérification admin verrouillée : après 8 essais infructueux, blocage de",
-        "Rapports CA : injection SQL corrigée (dates paramétrées)",
-        "Exports Excel protégés contre l'injection de formules (=, +, -, @)"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Fournisseurs : création/édition fonctionnelle sur toute base (colonne",
-        "Caisse : rendu monnaie exact — le droit de timbre est désormais inclus",
-        "Modification d'un règlement : montant exact (avant : arrondi à l'entier)",
-        "Une installation avortée ne bloque plus les clics « Installer »"
+        "Pop Licence (pastille topbar) entièrement redessinée : carte d'état avec",
+        "Section « Détails de la licence » : 8 lignes avec icônes vectorielles",
+        "Boutons Vérifier / Gérer la licence avec icônes intégrées, copie du code"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Audit multi-agents complet (8 périmètres), chaque correctif prouvé par un"
+        "Traductions arabes complétées pour la fenêtre (10 nouveaux libellés)",
+        "Harnais de capture visuelle de la fenêtre Licence (preuve reproductible)",
+        "349 tests, typecheck et build vérifiés, capture E2E inspectée"
       ]
     }
   ]

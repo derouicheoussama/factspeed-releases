@@ -1,32 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.5",
-  "tag": "v10.14.5",
+  "latest": "10.14.6",
+  "tag": "v10.14.6",
   "date": "2026-10-31",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.5/FactSpeed-Setup-10.14.5.exe",
-    "windows_taille": 143622441,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.5/FactSpeed-10.14.5-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.5/FactSpeed-10.14.5-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.6/FactSpeed-Setup-10.14.6.exe",
+    "windows_taille": 143622470,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.5/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.6/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Pop Licence (pastille topbar) entièrement redessinée : carte d'état avec",
-        "Section « Détails de la licence » : 8 lignes avec icônes vectorielles",
-        "Boutons Vérifier / Gérer la licence avec icônes intégrées, copie du code"
+        "Le bouton « Redémarrer pour installer » pouvait rester sans effet :"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Traductions arabes complétées pour la fenêtre (10 nouveaux libellés)",
-        "Harnais de capture visuelle de la fenêtre Licence (preuve reproductible)",
-        "349 tests, typecheck et build vérifiés, capture E2E inspectée"
+        "4 nouvelles gardes automatiques sur la machine à états d'installation"
       ]
     }
   ]

@@ -1,8 +1,8 @@
-version: 10.14.3
+version: 10.14.4
 files:
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.3/FactSpeed-Setup-10.14.3.exe
-    sha512: OFZuyrc30Iw0ynYZbdIJmreXd87VD/O4Q1TMxBjWGRYvEwxAlM0//aQURxExmt6RyhdJQEdJldB2h/wbwhFK2A==
-    size: 143621405
-url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.3/FactSpeed-Setup-10.14.3.exe
-sha512: OFZuyrc30Iw0ynYZbdIJmreXd87VD/O4Q1TMxBjWGRYvEwxAlM0//aQURxExmt6RyhdJQEdJldB2h/wbwhFK2A==
-releaseDate: '2026-10-31T02:10:02.359Z'
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.4/FactSpeed-Setup-10.14.4.exe
+    sha512: /XABpO1GwM1+4NjRJmgR/GwxQTiQO/QJn0n7v8zCmfjm9iNoh0FYwfwf/x3gjA9taMUjWxx87cjTdUdzcSuEjQ==
+    size: 143621598
+url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.4/FactSpeed-Setup-10.14.4.exe
+sha512: /XABpO1GwM1+4NjRJmgR/GwxQTiQO/QJn0n7v8zCmfjm9iNoh0FYwfwf/x3gjA9taMUjWxx87cjTdUdzcSuEjQ==
+releaseDate: '2026-10-31T06:58:18.587Z'

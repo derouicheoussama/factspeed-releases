@@ -1,4 +1,4 @@
 {
-  "minimum": "10.14.3",
-  "note": "Audit zéro défaut : permissions réelles, fournisseurs réparés, caisse exacte, notification sans doublon."
+  "minimum": "10.14.4",
+  "note": "Notification mise a jour sans doublon, ID Windows, page a propos compacte."
 }

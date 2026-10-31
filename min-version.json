@@ -1,4 +1,4 @@
 {
-  "minimum": "10.14.2",
-  "note": "Notification de mise a jour amelioree: une seule carte au lieu de deux."
+  "minimum": "10.14.3",
+  "note": "Audit zéro défaut : permissions réelles, fournisseurs réparés, caisse exacte, notification sans doublon."
 }
